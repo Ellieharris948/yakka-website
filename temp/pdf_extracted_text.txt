@@ -1,0 +1,2335 @@
+--- PAGE 1 ---
+note for Ellie: When building app notes where possible in
+the code, so anyone else can understand what you have
+done, in case someone has to pick this up if you busy or
+down the line 
+
+--- PAGE 2 ---
+Add better
+‘marketing copy’
+throughout
+
+--- PAGE 3 ---
+Hi Elleanor Harris
+
+
+--- PAGE 4 ---
+When raise dispute giving option for customer
+to request tradie come back- need to discuss 
+Where does this sit? 
+once they click raise dispute is it then an option underneath to instead request tradie return- tradie then gets notified?
+how do they agree time etc, if tradie starts battling back after they have requested fighting there case in messages this
+can then get messy- can the customer then cancle this request and just dispute the payment?
+So is it automated where tradie submits dates he can come back and then just this is sent to the customer to accept or
+decline and then can decide to just raise a payment dispute (e.g. if can’t come back for 3 weeks)? 
+When they click request return- it then takes them to a very similar page to the raise dispute bit where they select the line
+under question for them to return, provide images, decription etc- this however doesn’t go to us, but straight to the tradie
+to review and either accept (then submits date options) or decline, in which case it automatically turns into payment
+dispute. 
+For this if they are requesting to them to return for just say a shelf not the walls, does the other payments release straight a
+way or pause it all? If we release the money and the tradie never turns up when is the money then released to the pissed off
+customer? Do they have a time frame to say they did not come- is there leeway on arrival again (I don’t think so on a retuen
+if they say tuesday it is tuesday) 
+Is it just the customer that can request this option?. Or if the customer decides to raise payment dispute, can the tradie
+then counter this by saying I will come back? I am not sure on this? If the customer wanted them back they would of clicked
+that option 
+
+--- PAGE 5 ---
+Opening Screen 
+
+--- PAGE 6 ---
+LOG IN
+WELCOME BACKW ELCOME PAGE
+OR
+CREATE AN ACCOUNTEMAIL
+PASSWORD
+remember me
+TICK TURNS INTO THE YAKKA Y
+AND THE SHEILD COULD HAVE A SLIDE ‘SEE THROUGH/ ORANGE BORDER, SAME AS BOTTOM OF YAKKA WORKS  
+
+--- PAGE 7 ---
+Customer flow 
+
+--- PAGE 8 ---
+PART 1 — Customer Flow
+Customer onboarding
+Customer home screen
+Customer creates job
+“Awaiting tradie details”
+Customer review breakdown
+Payment flow
+Job in progress
+Customer marks job complete
+Customer dispute flow
+Customer job cards (all statuses)
+
+--- PAGE 9 ---
+CUSTOMERSign up
+TRADIECHOOSE YOUR ACCOUNT TYPE
+are you a customer or a tradie?
+o r
+Customer
+EMAIL
+MOBILE NUMBER
+PASSWORDFULL NAME
+CREATE ACCOUNTCREATE ACCOUNT
+CONFIRM PASSWORD
+Accept terms & conditions 
+
+--- PAGE 10 ---
+SKIP
+Welcome Ellie! 
+Upload profile
+image (optional)
+Add location (optional
+Profile
+ABOUT
+SUPPORT
+PAYMENTS
+View past jobs
+Terms & Conditions 
+Privacy 
+Manage cookies
+Contact us
+Ellie Harris
+4.8
+MANAGE ACCOUNT
+Change contact details 
+Home
+Live jobs 
+Past jobs
+Hi Elleanor Harris
+Create Job
+Tap to add a new job
+No past jobs
+Share feedback When click con tact us , sub ca tegories
+appear: R eport a bug, Get help , other -
+it can then g o to a similar f orm as r aise
+a disput e, but cust omer name and ID in
+subject , they can then send the f orm
+and it then g oes t o email f or us t o
+respond.  
+For shar e feedback - this is one w ay and
+would then be tak en t o the r eivew pag e  Pay securely — released only when the job
+is done right.
+
+--- PAGE 11 ---
+Customer initiates Job
+
+--- PAGE 12 ---
+Home
+Live Jobs
+Past jobs
+Hi Elleanor Harris
+No active jobs
+Pay securely — released only when the job
+is done right.
+Create Job
+Live jobs 
+Past jobs
+Create Job
+Tap to add a new job
+No past jobs
+Time to get griding
+START NEW  JOB
+I HAVE A JOB CODE
+Home
+Hi Elleanor HarrisCREATE JOB
+
+--- PAGE 13 ---
+Share Job
+New Job
+Hi Elleanor Harris
+Job Title
+Job Location 
+Proposed Start Date
+“Living room refurbishment”
+Post code 
+“16/07/2026”
+General notes
+Add top line information about the project. It
+will be broken down later. 
+“Redecorate room, including painting walls,
+ceiling, shelving unit”
+Share job link with tradie to complete the
+job breakdown. 
+New JobJOB CREATED 
+Once the tradie opens your job
+request, they’ll add the full job
+breakdown for you to review and
+approve.
+You’ll be notified when it’s ready.
+Once you approve and the payment
+is secured with YAKKA, the job can
+begin.
+Share Job
+Back to homepage
+Home
+Live Jobs
+Past jobs
+Hi Elleanor Harris
+Secure upfront payments — released only
+when the job is done
+Create
+Job
+Tap to add a new
+job
+Total Live jobs: 1 
+View Job
+ SHARE JOB
+Status: Awaiting Tradie Details
+Living room refurbishmentJob ID:
+46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AA
+Address line 1
+Address line 2
+
+--- PAGE 14 ---
+Share Job
+When they click shar e job - can it
+be same as tikt ok with the
+integration of wha tsapp , email ,
+messag es et c, but also just the
+simple cop y link?  
+
+--- PAGE 15 ---
+Tradie initiates Job: customer
+flow 
+
+--- PAGE 16 ---
+CUSTOMER
+TRADIE
+What customer gets when clicks link 
+Once they ha ve done this the job w ould
+aust oma tically appear in the app . With the
+first scr een being a pop up . 
+Sign up
+CHOOSE YOUR ACCOUNT TYPE
+are you a customer or a tradie?
+orFirst w ould need t o
+create an accoun t
+New Job
+Live jobs 
+Past jobs
+Create Job
+Tap to add a new job
+No past jobs
+Time to get griding
+START NEW  JOB
+I HAVE A JOB CODE
+Home
+Hi Elleanor HarrisCREATE JOBHow this works 
+f your tradie has already started a job
+in YAKKA, they’ll send you a job
+code. Enter it to review the job and
+pay securely.
+If you’re starting something new,
+create a job to invite your tradie.
+GOT IT
+Home
+Live Jobs
+Past jobs
+Hi Elleanor Harris
+No active jobs
+Pay securely — released only when the job
+is done right.
+Create
+Job
+Tap to add a new
+job
+
+--- PAGE 17 ---
+Contact Tradie
+APPROVE & PAYWhat customer gets when clicks link 
+If they click review later, the job is still logged
+in there home page and now connected. It has
+the yellow ‘awaiting payment’ tile under live
+jobs
+Home
+REVIEW BREAKDOWN
+Review Later JOB READY TO
+REVIEW
+Your tradie has added the full job
+breakdown.
+ Please review the details below
+and confirm everything is correct
+before making payment.
+Once approved and paid, your
+money will be securely held with
+YAKKA until the job is complete. 
+New JobReview Job Breakdown
+Task 1 - Paint Walls 
+£500
+Prep and paint 4 walls, 2 coats of Dulux Pure
+Brilliant White.
+ Masking and cleanup included.
+(Excludes ceiling.)
+Task 3 - Paint Ceiling
+1 coat white emulsion.£80
+Task 2 - Fit Shelves
+£135
+Install 3 floating shelves provided by customer.
+New JobTotal to Pay TodaySummary
+£729.3
+ You’ll pay this total upfront into YAKKA’s secure
+account.
+ The tradie only receives payment once you confirm
+the job is complete.
+ If anything doesn’t look right, you can raise a concern
+before payment is released. Click here for more
+information.These ar e the same scr een y ou just
+scroll do wn
+New Job
+ENTER JOB CODE 
+e.g. YAK-4829
+CONTINUEPayment Protection Fee (2%)£14.3Job Price £715This fee covers secure
+payment handling and
+protection if there’s a
+dispute.
+
+--- PAGE 18 ---
+Customer Payment flow
+
+--- PAGE 19 ---
+CONFIRM & PAY
+Live jobs 
+Past jobs
+Create Job
+Tap to add a new job
+No past jobs
+Time to get griding
+BACK TO HOME
+View Job
+Total to Pay: £715This payment will leave your account now and be
+securely held by YAKKA.
+ It will only be released to the tradie once you
+confirm the job is complete. Payment 
+Card Details:
+ [ Card number field ]
+ [ Expiry ] [ CVV ]
+ [ Name on card ]
+ [ Billing postcode ]
+Agreement:
+☐ I’ve reviewed the job breakdown and agree to
+proceed.
+ ☐ I accept YAKKA’s Terms & Conditions.
+ ☐ I understand payment is held until I confirm
+the job is complete and that I can raise a
+concern before it’s released.
+CONFIRM & PAY
+Continue to PaymentCustomer Payment 
+Payment
+Total to Pay: £715This payment will leave your account now and be
+securely held by YAKKA.Payment 
+Card Details:
+ [ Card number field ]
+ [ Expiry ] [ CVV ]
+ [ Name on card ]
+ [ Billing postcode ]
+Agreement:
+☐ I’ve reviewed the job breakdown and agree to
+proceed.
+ ☐ I accept YAKKA’s Terms & Conditions.
+ ☐ I understand payment is held until I confirm
+the job is complete and that I can raise a
+concern before it’s released.
+YAKKA uses secure, encrypted payment processing.
+HomePAYMENT SUCCESFUL
+Your payment has been securely
+held with YAKKA.
+ Your tradie can now begin work on
+the agreed date.
+You’ll only release payment once
+you confirm the job is complete
+Payment
+YAKKA uses secure, encrypted payment processing.PAYMENT INFO 
+This payment will leave your account
+now and be securely held by YAKKA.
+ It will only be released to the tradie
+once you confirm the job is complete. 
+If anything isn’t completed as agreed,
+you can raise a concern and YAKKA
+will return the relevant amount to you.
+☐ Don’t show this again 
+Contact Tradie
+APPROVE & PAY
+New JobTotal to Pay TodaySummary
+£729.3
+ You’ll pay this total upfront into YAKKA’s secure
+account.
+ The tradie only receives payment once you confirm
+the job is complete.
+ If anything doesn’t look right, you can raise a concern
+before payment is released. Click here for more
+information.Payment Protection Fee (2%)£14.3Job Price £715
+
+--- PAGE 20 ---
+Credit car ds: w e can tak e them, but w e char ge the cust omer the amoun t char ged b y credit
+card compan y (mak e this clear in cop y)
+Bank tr ansf er (fr ee)
+No additional f ees
+Credit / debit car d
+Card pr ovider f ee appliesPayment Notes
+Apple/ google pay is through stripe- how much is this again? Do we offer this and take on
+the fees or add the fees, or add part of the fees? 
+
+--- PAGE 21 ---
+Job Live: status cards 
+
+--- PAGE 22 ---
+Home
+Pending
+Jobs
+Past jobs
+Hi Elleanor Harris
+Pay securely — released only when the job
+is done right.
+Create
+Job
+Tap to add a new
+job
+Total Live jobs: 1 
+View Job
+ PAY NOW
+Status: Awaiting your payment
+Job Total: £715
+Living room refurbishment
+Job ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AA
+View Job
+ Message TradieJob Total: £715Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AA
+Status: Payment Received – Work in
+Progress
+Status: Payment Received – Work in
+Progress
+Job Total: £715Living room refurbishmentJob ID: 46583
+Start Date: 5/12/25
+Location: SW1A !AA
+Status: Tradie Marked Complete –
+Awaiting Your Approval
+Status: Tradie Marked Complete –
+Awaiting Your Approval
+View Job
+ Contact YAKKAJob Total: £715Living room refurbishment
+Status: Under Review by YAKKA
+ Status: Under Review by YAKKA
+View Job
+ Contact YAKKAJob Total: £715Living room refurbishmentJob ID: 46583
+Status: Payment Processing
+Job Total: £715Living room refurbishmentJob ID: 46583
+Status: Payment Released – Job
+Complete
+View Job
+View Job
+ Share Job
+Status: Awaiting tradie breakdown
+Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AA
+Mark job CompleteStatus card: Customer This screen only appears when it is the customer not
+the tradie who initiates the job 
+View Job
+Raise a Dispute
+
+--- PAGE 23 ---
+Status: Awaiting your Payment 
+Status: Payment Received – Work in
+Progress
+Status: Payment Received – Work in
+Progress
+Status: Tradie Marked Complete –
+Awaiting your Review
+Status: Tradie Marked Complete –
+Awaiting your Review
+Status: Under Review by YAKKA
+ Status: Under Review by YAKKA
+Status: Payment Processing
+Status: Payment Released – Job
+Complete
+Status: Awaiting Tradie BreakdownText pop up for each status: Customer  
+What this means:
+Your tradie has submitted the job
+breakdown.
+ Please review the details and make payment
+to secure the booking.
+Tip:
+If you need to check anything, you can
+message your tradie before paying.What this means:
+Your payment has been received and is now
+held securely by YAKKA until the job is
+complete. Your tradie can now begin work.
+Tip:
+You can upload photos or notes in the Job
+Messages section. What this means:
+Your tradie has marked the job as complete.
+ Please review the work and confirm
+completion, or raise an issue if something
+isn’t right or completed and we will review
+and resolve.
+Tip:
+Make sure you capture photos if case you
+need to raise a dispute.
+What this means:
+You’ve raised a dispute for this job. YAKKA is
+reviewing the evidence you submitted.
+ The payment will remain on hold until the
+review is complete.
+Tip:
+Disputes are usually resolved within 2–4
+days. We’ll contact you by email once a
+decision has been made.What this means:
+You’ve confirmed the job is complete.
+YAKKA is now processing the final payment
+to the tradie.This usually takes 1–2 business
+days depending on the bank.
+Tip:
+You can view full payment details anytime on
+this job’s page.What this means:
+The job is now fully complete and payment
+has been released to your tradie.
+ This job will now appear in your Past Jobs
+.
+Tip:
+You can download your invoice or view job
+details anytime.What this means:
+Your job has been sent to your tradie.
+They’re now adding the full breakdown and
+pricing.
+ You’ll be notified once it’s ready for you to
+review.
+Tip:
+You can copy or resend the job link anytime
+as a reminder.
+
+--- PAGE 24 ---
+Partial Payment cards: Customer  
+Status: Partial Payment Requested
+ Status: Partially Paid – Work in Progress
+W hat this means:
+ Your tradie has requested a partial payment
+for work completed so far.
+ Please review the request and approve only
+if you’re happy with the progress.
+Note:
+ Partial payments are capped at 50% of the
+total job value, and only available for upfront
+material jobs, or jobs lasting more than 4
+weeks. W hat this means:
+ A partial payment has been released.
+ The remaining balance will be paid once
+the job is completed and confirmed.
+Tip:
+Make sure you continue to capture photos if
+case you need to raise a dispute.
+Job Total: £715Living room refurbishmentJob ID: 46583
+Start Date: 5/12/25
+Location: SW1A !AA
+Status: Partial Payment Requested
+ Status: Partial Payment Requested
+Mark job Complete
+View Job
+Raise a Dispute
+Job Total: £715Living room refurbishmentJob ID: 46583
+Start Date: 5/12/25
+Location: SW1A !AA
+Status: Partially Paid – Work in Progress
+ Status: Partially Paid – Work in Progress
+Mark job Complete
+View Job
+Raise a Dispute
+
+--- PAGE 25 ---
+Marks job Complete
+
+--- PAGE 26 ---
+View Job
+Mark job CompleteJob Total: £715Living room refurbishment
+Location: SW1A !AA
+MARK JOB COMPLETEMark job as complete- customerThis is wher e we advise them
+to tak e pictur es
+They g et notif cation on
+proposed start da te to
+take and upload pictur es
+of the bef ore (sa ying also
+take pictur es a t the end)  
+Then as they g o to click
+complet e it sa ys tak e and
+upload imag es ag ain
+These ar e all then st ored
+in the cha t feature of the
+job Home
+Live jobs Past jobsHi Elleanor Harris
+Create Job
+Tap to add a new job
+Total Live jobs: 1 
+Job ID: 46583
+Proposed Start Date: 5/12/25Home
+READY TO CONFIRM THE JOB?
+If your happy with the work, mark as
+complete and payment will be
+released to tradie.
+Home
+THANK YOU - JOB COMPLETE!
+Your payment has now been released
+to the tradie.
+ You can still view your receipt and job
+details anytime in your account.
+YAKKA protects your payment and
+ensures fair confirmation for both sides.
+Status: Tradie Marked Complete –
+Awaiting your approval
+Status: Tradie Marked Complete –
+Awaiting your approval
+Raise a Dispute
+RAISE A DISPUTE
+ LET US KNOW  HOW  W E DID
+Review Tradie
+
+--- PAGE 27 ---
+Mark job as complete- Partial Payments 
+View Job
+Review Payment
+RequestJob Total: £715Living room refurbishment
+Location: SW1A !AAHome
+Live jobs Past jobsHi Elleanor Harris
+Create Job
+Tap to add a new job
+Total Live jobs: 1 
+Job ID: 46583
+Proposed Start Date: 5/12/25
+Status:  Partial Payment Requested by
+tradie
+Status:  Partial Payment Requested by
+tradie
+Raise a Dispute
+View Job
+Mark job CompleteJob Total: £715Living room refurbishment
+Location: SW1A !AAHome
+Live jobs Past jobsHi Elleanor Harris
+Create Job
+Tap to add a new job
+Total Live jobs: 1 
+Job ID: 46583
+Proposed Start Date: 5/12/25
+Raise a Dispute
+Status: Partially Paid – Work in
+Progress
+Status: Partially Paid – Work in
+Progress
+Paint Walls 
+£500
+Fit Shelves
+£135
+ Paint Ceiling
+£80
+Payment Release
+Requested
+Partial Payment Request
+Task 
+Cost
+Payment Status 
+Total job price: £750 
+Amount to be released: £135
+Amount still protected by YAKKA: £580
+Payment Summary
+APPROVE PARTIAL PAYMENT
+YAKKA
+Protected
+YAKKA
+Protected
+Decline/ Message Tradie
+
+--- PAGE 28 ---
+Rules for partial payments 
+Only available jobs longer than 4 weeks or for upfront material costs
+Can only request up to 50% of total job cost prior to full completion 
+Prevent tradies leaving the job earlier once earnt say 80% 
+
+--- PAGE 29 ---
+Customer Dispute flow 
+
+--- PAGE 30 ---
+View Job
+Mark job Complete
+CONFIRM AND CONTINUE
+Status: Marked Complete – Awaiting
+your approval
+Status: Marked Complete – Awaiting
+your approval
+Message TradieCANCEL
+Raise DisputeJob Total: £715Living room refurbishmentReport an issue- customer
+Home
+Live jobs Past jobsHi Elleanor Harris
+Create Job
+Tap to add a new job
+Total Live jobs: 1 
+Job ID: 46583Home
+Before raising a dispute
+If part of the work isn’t complete or not as
+agreed, please message the tradie first to
+ask them to return and fix it.
+If this hasn’t resolved the issue, you can
+continue to raise a dispute and YAKKA will
+review the payment.
+I’ve contacted the tradie & issue not resolved
+Message Tradie
+
+--- PAGE 31 ---
+Report and issue- customer
+Dispute
+Paint Walls 
+£500
+Fit Shelves
+£135
+ Paint Ceiling
+£80
+Disputed 
+Job Dispute Summary
+Task 
+Cost
+Payment Status 
+Total job price: £750 
+Amount to be released: £580 
+Amount under review: £135
+Payment Summary
+Dispute
+Paint Walls 
+£500
+ Paint Ceiling
+£80
+Job Dispute Review
+Task 
+Cost
+Dispute
+Select the parts of the job you’re
+disputing
+Fit Shelves
+£135
+CONTINUE 
+CONTINUE
+Release
+ReleaseOnly the selected items will be reviewed.
+
+--- PAGE 32 ---
+What w asn’t complet ed as agr eed?
+Please describe what was agreed, what was
+delivered, and where it differs.
+Dispute FormDispute Item: Fit Shelves
+Job 46582
+UPLOAD EVIDENCE
+SEND
+Dispute Form
+Job 46582
+BACK TO HOMEPAGEWhen they send this w e receiv e it in a y akka email addr ess, along with all
+messag e hist ory, any imag es ev er uploaded, all job details e xtrated and
+added along with the messag e. 
+For testing the concept , we will then handle all disput e via email - this
+saves the time and ef fort of cr eating a y akka support portal  
+When they click the in fo icon ne xt to upload imag es, this will ha ve
+examples of imag es to send (bef ore and a fter), et c The Job ID is aut oma tically g ener ated in the t op field, along with
+the subject line (f or our r eference in email)
+The Send butt on is disabled un til they r each minium char acters
+and a t least one imag e is uploaded. If they try and submit bef ore
+this the er oor messag e comes up pr omting them of the issue . 
+Dispute Details
+TTo review this dispute and decide how the
+payment should be handled, we need clear
+details and supporting evidence for each item
+you’re disputing.
+Your dispute has been
+registered, and partial funds
+were released. 
+Please expect a response via
+email within 5 working days. 
+DISPUTE REGISTERED
+Photos are required to support your dispute.
+
+--- PAGE 33 ---
+Dispute Form
+Dispute Item 1 of 2: Fit Shelves
+Job 46582
+UPLOAD EVIDENCE
+NEXTTTo review this dispute and decide how
+the payment should be handled, we need
+clear details and supporting evidence for
+each item you’re disputing.
+Dispute Form
+Job 46582
+Dispute details
+Dispute Item 2 of 2: Kitchen Sink
+SUBMIT DISPUTE
+Dispute Form
+Job 46582
+BACK TO HOMEPAGE
+Your dispute has been
+registered. We’ll review the
+disputed item(s) based on the
+details and evidence
+provided, and determine how
+the remaining payment
+should be handled.
+Please expect a response via
+email within 5 working days. 
+DISPUTE REGISTERED
+Can click and
+takes them to
+examples of
+images- before
+and after etc If they are disputing more than one line item...
+Dispute Details
+What w asn’t complet ed as agr eed f or this
+item?
+Please describe what was agreed, what was
+delivered, and where it differs.
+Upload for this item only. Photos are required to
+support your dispute.
+What w asn’t complet ed as agr eed f or this
+item?
+Please describe what was agreed, what was
+delivered, and where it differs.
+UPLOAD EVIDENCE
+Photos are required to support your dispute.
+
+--- PAGE 34 ---
+Dispute Outcome 
+The out come will a t the be ggingin be discussed via email , and
+confirmed ther e, but it will still upda te with the out come within the
+app (Y AKAA will ha ve to manually upda te at the start via the Y AKKA
+admin accoun t) 
+View Job
+ Contact YAKKA
+Status: Under Review by YAKKA
+ Status: Under Review by YAKKA
+Live jobs 
+Past jobs
+Create Job
+Tap to add a new job
+Job Total: £715Living room refurbishmentJob ID: 46583Total Live jobs: 1 
+DISPUTE RESOLVED
+Job ID: 
+YAKKA has completed the
+review of this dispute.
+ Tap below to see the
+outcome.
+View Outcome 
+Home
+Hi Elleanor Harris
+Rate Your ExperienceThis w ould be:
+Refunded/
+Released/
+Partially
+refunded  
+Depending on
+outcome
+YAKKA Dispute Review SummaryYAKKA has reviewed the job details and
+evidence submitted by both parties.
+ The final decision for this dispute is shown
+below.
+Disputed Items
+Paint Walls 
+£500
+Fit Shelves
+£135
+ Paint Ceiling
+£80
+Refunded 
+Task 
+Cost
+Outcome
+Release
+Release
+Final Payment Summary
+Final cost for this job: £615
+You paid £750 upfront.
+ £135 has been refunded following the
+dispute review.
+Dispute FormThis dispute has now been
+resolved. No further action is
+required.
+Download Summary
+Back to Home
+Scroll do wn 
+Final Payment SummaryFinal cost for this job: £615
+You paid £750 upfront.
+ £135 has been refunded following the
+dispute review.
+Rate Your Experience
+
+--- PAGE 35 ---
+Reviews 
+
+--- PAGE 36 ---
+View Job
+ Contact YAKKA
+Status: Under Review by YAKKA
+ Status: Under Review by YAKKA
+Live jobs 
+Past jobs
+Create Job
+Tap to add a new job
+Job Total: £715Living room refurbishmentJob ID: 46583Total Live jobs: 1 
+DISPUTE RESOLVED
+Job ID: 
+YAKKA has completed the
+review of this dispute.
+ Tap below to see the
+outcome.
+View Outcome 
+Rate Your Experience
+Home
+Hi Elleanor HarrisReview pop-up only appears once job is marked completed both sides or
+dispute is resolved. They will also receive a phone notifcation and email
+promoting them to leave a review 
+Review
+RATE YOUR EXPERIENCE
+Your feedback helps keep YAKKA safe
+and reliable.
+Anything we should know (optional)? 
+Home
+THANK YOU - JOB COMPLETE!
+Your payment has now been released
+to the tradie.
+ You can still view your receipt and job
+details anytime in your account.
+YAKKA protects your payment and
+ensures fair confirmation for both sides.
+Rate Your Experience
+Job Mark ed Complet e Disput e Resolv edHow was your experience the tradie?
+Submit Feedback
+
+--- PAGE 37 ---
+ReviewRATE YOUR EXPERIENCE
+Your feedback helps keep YAKKA safe
+and reliable.
+Anything we should know (optional)How was your experience with the tradie?
+Submit Feedback
+Review
+THANK YOU — FEEDBACK
+SENT
+REVIEW YAKKA ON GOOGLE
+Back to Homepage
+
+--- PAGE 38 ---
+Messages 
+
+--- PAGE 39 ---
+View Job
+Messages: Customer side
+Messages
+Live jobs 
+Past jobs MessagesThe colour ed cir cled r eflect the job sta tus - see slide 1 7 
+Tom Dickens
+Living Room refurbishment 
+Tom Dickens
+Living Room refurbishment 
+View Profile
+Payment Link
+Generated 
+Payment Link
+Generated 11:03
+Payment Received by
+YAKKA
+Pay now (click here)
+ Pay now (click here)11:03
+11:03
+Type message here
+
+--- PAGE 40 ---
+Tradie flow- Account set up  
+
+--- PAGE 41 ---
+PART 2 — Tradie Flow
+Tradie onboarding
+4-step profile completion
+Tradie home
+Tradie receives job link
+Tradie creates job breakdown
+Waiting for customer payment
+Job in progress for tradie
+Tradie marks job complete
+Tradie dispute flow
+Tradie job cards (all statuses)
+
+--- PAGE 42 ---
+CUSTOMERSign upCREATE AN ACCOUNT
+TRADIECHOOSE YOUR ACCOUNT TYPE
+are you a cust omer or a tr adie ?
+or
+I W ORK ON MY OW NSign up
+I HAVE A TEAMorTELL US HOW YOU WORK
+Wha t type of business do y ou
+have? Explaining what each of the
+below mean
+
+--- PAGE 43 ---
+Account set up: Sole trader 
+
+--- PAGE 44 ---
+sign up 
+COMPLETE YOUR
+PROFILE
+CONTINUE
+Accept terms & conditions 
+PASSWORD
+CONFIRM PASSWORD
+CREATE
+ACCOUNTSOLE TRADER 
+ENTER YOUR BUISNESS DETIALS
+tradie
+EMAIL
+MOBILE NUMBERFIRST NAMECREATE ACCOUNT
+TRADING NAME 
+WORK
+ADDRESS
+POSTCODE
+sign up 
+Held securely so we can send
+you quick and easy payments 
+ACCOUNT NAME
+ACCOUNT NUMBER
+SORT CODE
+I confirm these are my correct banking
+detailsENTER BANK
+DETAILS
+CONTINUE
+ CONTINUE
+CONTINUE
+i have removed ‘keep me signed in’- as this
+should be automatic, like bank apps etc, just
+linked to face ID or phone password? LAST NAMEIf don’t trade under a business nam e, enter
+your own nam e
+
+--- PAGE 45 ---
+Sign
+up
+VERIFY
+Sign
+up
+COMPLETE PROFILEVERFIY YOUR IDENITY
+UPLOAD ID
+company registration
+number (if applicable)
+I confirm this information is true
+This is where we use
+stripe- but still want
+box for company
+number 
+Behind the scenes:
+Stripe Identity handles ID + facial
+verification
+COMPANY CHECK runs in background-
+check comapny house and credit check
+Once approved → send email or push:
+“You’re verified and ready to start on
+YAKKA!”We’re  verifying your ID. 
+You’ll get an email when your
+account is approved — in the
+meantime, you can browse and
+complete your profileTHANKS!SOLE TRADER 
+
+--- PAGE 46 ---
+sign up 
+sign up SEARCHSOLE TRADER- COMPLETE
+PROFILE
+COMPLETE YOUR PROFILE COMPLETE YOUR PROFILE
+Select your main trade/s
+Step 1/4
+ Step 1/4
+Tell us where you work 
+sign up COMPLETE YOUR PROFILE
+Step 1/4
+Upload Profile Picture
+CONTINUE BACK
+ SKIP FOR NOW BACK
+CONTINUE Chang es to con tinue once they selectBACK
+ COMPLETEThis will be visible to customers 
+UPLOAD
+
+--- PAGE 47 ---
+Account set up: I have a team
+
+--- PAGE 48 ---
+I have a team 
+sign up 
+COMPLETE YOUR
+PROFILE
+CONTINUE
+Accept terms & conditions 
+Keep me signed in
+PASSWORD
+CONFIRM PASSWORD
+CREATE
+ACCOUNT
+ENTER YOUR BUISNESS DETIALS
+tradie
+EMAIL
+MOBILE NUMBER
+(OPTIONAL)BUISNESS
+NAMECREATE ACCOUNT
+REGISTERS BUISNESS NAME 
+ADDRESS
+POSTCODE
+sign up 
+So we can send you quick and
+easy payments 
+ACCOUNT NAME
+ACCOUNT NUMBER
+SORT CODE
+I confirm these are my correct banking
+details
+ENTER BANK
+DETAILS
+CONTINUE
+ CONTINUE
+CONTINUECOMPANY REGISTRATION
+NUMBERExplain wher e to find this with link:
+https:/ /find- and-upda te.compan y-
+informa tion.service .gov.uk/
+
+--- PAGE 49 ---
+I have a team 
+Sign
+up
+VERIFYVERFIY IDENITY
+UPLOAD ID
+I confirm this information is trueWe need to verify the identity of one
+managing director or authorised
+representative for this business.
+Sign
+up
+??????We’re  verifying your ID. 
+You’ll get an email when your
+account is approved — in the
+meantime, you can browse and
+complete your profileTHANKS!
+
+--- PAGE 50 ---
+sign up 
+sign up 
+sign up SEARCHCOMPLETE YOUR PROFILE COMPLETE YOUR PROFILE COMPLETE YOUR PROFILE
+Select your main trade/s
+Step 1/4
+ Step 1/4
+ Step 1/4
+Tell us where you work Does your business hold any
+accreditations?
+sign up COMPLETE YOUR PROFILE
+Step 1/4
+Upload Profile Picture or
+Company Logo
+CONTINUE BACK
+ SKIP FOR NOW BACK
+ SKIP FOR NOW BACK
+CONTINUE Chang es to con tinue once they selectUpload certifications or licences that apply
+to your business.
+BACK
+ COMPLETEThis will be visible to customers 
+UPLOAD
+ UPLOAD
+
+--- PAGE 51 ---
+sign up 
+Add team members 
+BACK
+ COMPLETEEnter Email 
+Katie@yakka.com
+Kyle@yakka.com
+Ellie@yakka.com
+Invited
+Invited
+Invited
+SKIP FOR NOW
+CONTINUEInvite your t eam so jobs can be updat ed as the w ork happens.
+Team members can handle day -to-day job updat es while y ou k eep full con trol of the accoun t.
+Accoun t owner
+The accoun t owner has full access and con trol of the accoun t.
+They can:
+Manag e accoun t settings and business details
+Add or r emo ve team members a t any time
+View all jobs and messag es
+Upload phot os and mark jobs as complet e
+Team member
+Team members help manage day-to-day jobs.
+They can:
+View jobs they’re assigned to
+Message customers about those jobs
+Upload photos and updates
+Mark jobs as complete
+They can’t:
+Create new jobs
+Accept jobs from customers
+Change pricing or quotes
+Access account settings or payments
+Add or remove other users
+Each team member has their own login and access via the YAKKA app.
+In version 2, we can
+add ‘manager’ as an
+option, where they
+have more access
+than team member
+but aren’t the
+account owner COMPLETE YOUR PROFILE
+Step 1/4
+Invite team members to view and update jobs.
+ You can change or remove access at any time.
+Team members have restricted access and don’t
+have access to payments or settings.
+Chang es to con tinue once they en ter an email addr ess
+
+--- PAGE 52 ---
+For a smoother user experience, you can give new tradies temporary access:
+Let them browse job requests or fill out their profile while verification is pending.
+Clearly label their account as “Pending Verification” until approved.
+That avoids frustration and makes them feel like they’re already part of YAKKA.
+
+--- PAGE 53 ---
+Profile pages
+
+--- PAGE 54 ---
+Electrician
+Plumbers
+Handyman
+PofileKyle HowleyTradie Profile Pages- the customers see the same left two when click on the
+tradie
+Profile
+I work on my own I have a team 
+Plumbers Limited
+4.8
+4.7
+Qualifications 
+public liablity insurance
+Location
+Location
+Business Accreditations
+public liablity insurance
+Pofile
+ABOUT
+SUPPORT
+PAYMENTS
+View past jobs
+Terms & Conditions 
+Privacy 
+Manage cookies
+Contact us
+Refer friend 
+ & No YAKKA fees on your next 3
+completed jobs
+This only kicks in once the referee has had
+there ID verified A bit about themselv es (if they
+chose t o writ e something) -
+physically bo x not ther e just a
+mark er- if no description added
+everything is just mo ved up  
+MANAGE ACCOUNT
+Add team members
+Update Bank Details 
+Update account holder 
+Share feedback When click contact us, sub
+categories appear: Report a
+bug, Get help, other- it can
+then go to a similar form as
+raise a dispute, but customer
+name and ID in subject, they
+can then send the form and it
+then goes to email for us to
+respond. 
+For share feedback- this is one
+way and would then be taken
+to the reivew page  sCROLL DOWN 
+
+--- PAGE 55 ---
+Pofile
+ABOUT
+SUPPORT
+PAYMENTS
+View past jobs
+Terms & Conditions 
+Privacy 
+Manage cookies
+Contact us
+Refer friend 
+ & No YAKKA fees on your next 3
+completed jobs
+MANAGE ACCOUNT
+Add team members
+Update Bank Details 
+Update account holder Tradie Profile Pages
+View Job
+ Download InvoiceHome
+Living room refurbishmentJob ID: 46583
+End Dat: 5/12/25
+Total Earned: £2850Amount: £715
+Download InvoiceLiving room refurbishmentJob ID: 46583
+End Dat: 5/12/25Amount: £715
+View Job
+
+--- PAGE 56 ---
+Tradie Profile Pages
+Pofile
+ABOUT
+SUPPORT
+PAYMENTS
+View past jobs
+Terms & Conditions 
+Privacy 
+Manage cookies
+Leave Feedback 
+public liablity insurance
+Please let us know how we can help. Contact us
+Add subject lineCustom er ID
+SEND
+FAQs
+Job 46582
+BACK TO PROFILEThankyou for contacting us. 
+We will get back to you within
+48 hours via email. 
+Contact us
+Report Bug 
+If click contact us- this is then same as dispute
+form which then send and we then respond via
+email 
+
+--- PAGE 57 ---
+Tradie flow- Create Job 
+ got to here editing 
+
+--- PAGE 58 ---
+ADD JOB BREAKDOWN
+Hi Elleanor Harris
+Get paid on time (everytime) — without
+chasing customers.
+Live jobs Past jobsCreate Job
+Tap to add a new job
+No active jobsNew Job
+Hi Elleanor Harris
+Job Title
+Job Location 
+Proposed Start DateA calendar appears ,
+they don ’t type  
+Need t o add estima ted
+end da te- 4 w eeks or
+long er can then do
+partial pa ymen ts (but
+only t o up t o 50%)  Expected Completion Date“Living room refurbishment”
+“SW1A 1AA”
+5 day leeway on this
+General notes
+“Add any overarching information about the
+project here”Hi Ellie
+
+--- PAGE 59 ---
+GOT IT- start adding tasks
+Review Job
+Task Description
+Price (£)
+Additional Notes Do a minimum character limit 
+Need to add section for upfront material
+costs- this is when they can claim partial
+payment for these- but the customer has the
+right to wait until they are visible on site. 
+Add in info no job line can be less than 100New Job
+Adding clear, detailed task descriptions protects
+you and your customer if a dispute ever arises.
+ Think of this section like a digital quote — it’s
+what YAKKA will use to verify what was agreed.
+Be specific — include materials, quantities,
+and what’s excluded.
+ Break large jobs into smaller tasks (e.g.
+painting, shelving, flooring).
+Use fixed prices for each part —
+customers pay upfront into YAKKA’s secure
+account.
+ The clearer your breakdown, the faster
+disputes can be resolved in your favour.
+YAKKA keeps this information as your proof of
+agreement — your best protection if anything
+goes wrong.How to Fill Out Your Job
+Breakdown
+Don’t show this againNew JobThis scan be a scr oll if needed- not all on initial scr een 
+💡 Tip: Be detailed and specific.
+ Clear task descriptions help protect you and your
+customer if there’s ever a disagreement about what was
+included.Job Breakdown
+Task Title
+“Paint living-room walls”
+“Prep and paint 4 walls, 2 coats of Dulux Pure
+Brilliant White, masking and cleanup included. 
+“£500"
+“Includes all paint & materials. Excludes
+ceiling”
+Add TaskThey can click the info sign for each and
+then the below appears
+Task T itle:   Wha t par t of the job is this ? 
+Task Description: Describe e xactly wha t is
+included (ad something about quan tities)
+Price: Agr eed price f or this task (if only o verall
+price w as agr eed, this is up t o you t o br eak do wn
+for the cust omer)
+Additional Not es: An ything else the cust omer or
+YAKKA should kno w. 
+
+--- PAGE 60 ---
+The pencils are edit icons,
+where they can go into
+each individual tile and
+edit- you don’t have to go
+back to the previous
+page. 
+This is also a scrollable
+page, so can scroll and
+see all task items, and
+then the subtotal section
+(see right), at the bottom 
+Edit Job Breakdown
+Generate Job Link
+h ttps:/ / Y akk a.Secur e .P ay / 1 0 234
+New JobReview Job
+Task 1 - Paint Walls 
+£500
+Prep and paint 4 walls, 2 coats of Dulux Pure
+Brilliant White.
+ Masking and cleanup included.
+(Excludes ceiling.)
+Task 2 - Fit Shelves
+£135
+Install 3 floating shelves provided by customer.
+Task 3 - Paint Ceiling1 coat white emulsion.£100
+New JobTotal Job PriceSummary
+YAKKA Commission
+Net to You £715
+£35.75
+£679.25What the customer will pay 
+5%
+Customers pay this total upfront into YAKKA’s secure
+account.  You’ll receive payment once the job is
+marked complete..
+ YAKKA Tip: The clearer your breakdown, the
+stronger your protection if there’s ever a dispute.
+New Job Once they pay, funds are held securely
+by YAKKA until completion.
+COPY Job Link
+Integrate the pop up where
+can then send directly on
+whats app, email etc 
+Save & ContinueYou’re ready to share this job
+with your customer.Each line item can’t be less than 100- if they put in less, need a error and pop up saying 
+
+--- PAGE 61 ---
+Hi Elleanor Harris
+Review Job
+Task 1 - Paint Walls 
+£500
+Prep and paint 4 walls, 2 coats of Dulux Pure
+Brilliant White.
+Masking and cleanup included.
+(Excludes ceiling.)
+Task 3 - Fit Shelves
+£135
+Install 3 floating shelves provided by customer.Task 2 - Paint Ceiling
+1 coat white emulsion.£100
+Summary
+Total Job Price £715
+Hi Elleanor Harris
+Job Breakdown
+💡 Tip: Be detailed and specific. Clear task descriptions
+help protect you and your customer if there’s ever a
+dispute about the job. 
+Task Description
+Price (£)
+Additional Notes Task Title
+“Paint living-room walls”
+“Prep and paint 4 walls, 2 coats of Dulux Pure Brilliant
+White, masking and cleanup included. 
+“£500"
+“Includes all paint & materials. Excludes
+ceiling”
+Add Task
+Review Job
+Hi Elleanor Harris
+Task 3 - Fit Shelves
+£135
+Install 3 floating shelves provided by customer.
+Summary
+Total Job Price £715
+Edit Job Breakdown
+Generate Job LinkYAKKA Commission
+Net to You £35.75
+£679.25What the customer will pay 
+5%
+Customers pay this total upfront into YAKKA’s secure
+account.  You’ll receive payment once the job is marked
+complete..
+ YAKKA Tip: The clearer your breakdown, the
+stronger your protection if there’s ever a dispute.
+
+--- PAGE 62 ---
+Hi Elleanor Harris
+Task 2 - Fit Shelves
+£135
+Install 3 floating shelves provided by customer.
+Summary
+Total Job Price £715
+Edit Job Breakdown
+Generate Job LinkYAKKA Commission
+Net to You £35.75
+£679.25What the customer will pay 
+5%
+Customers pay this total upfront into YAKKA’s secure
+account.  You’ll receive payment once the job is marked
+complete..
+ YAKKA Tip: The clearer your breakdown, the
+stronger your protection if there’s ever a dispute.
+
+--- PAGE 63 ---
+Tradie flow- customer Create
+Job 
+
+--- PAGE 64 ---
+CUSTOMER
+TRADIE
+If the customer sent link... Tradie UX
+Sign up
+CHOOSE YOUR ACCOUNT TYPE
+are you a cust omer or a tr adie ?
+orThe link they open takes them to download the
+app, which then takes them to account set up
+work flow
+Home
+Live jobs 
+Past jobs
+Hi Elleanor Harris
+Create Job
+Tap to add a new job
+No past jobs
+Time to get griding
+Whilst there ID is
+being verfited they
+can still explroe the
+app, and when they
+click ‘home’ a pop up
+appears JOB REQUEST
+Customer has requested the
+below job. Click the link and
+fill out remaining details. 
+Job: Living room refurbishment
+Location: SW1A 1AA
+Proposed start date: 5/12/25Customer name: Mary jane
+INPUT JOB DETAILS
+GOT IT- start adding tasksNew Job
+Adding clear, detailed task descriptions protects
+you and your customer if a dispute ever arises.
+ Think of this section like a digital quote — it’s
+what YAKKA will use to verify what was agreed.
+Be specific — include materials, quantities,
+and what’s excluded.
+ Break large jobs into smaller tasks (e.g.
+painting, shelving, flooring).
+Use fixed prices for each part —
+customers pay upfront into YAKKA’s secure
+account.
+ The clearer your breakdown, the faster
+disputes can be resolved in your favour.
+YAKKA keeps this information as your proof of
+agreement — your best protection if anything
+goes wrong.How to Fill Out Your Job
+Breakdown
+Don’t show this againIt will then take them
+to the regular new job
+flow 
+
+--- PAGE 65 ---
+Job status cards 
+
+--- PAGE 66 ---
+View Job
+ COPY LINK
+View Job
+ Mark job Complete
+Status: Waiting for Customer Payment
+Status: Payment Received – Safe to
+Start
+Status: Payment Received – Safe to
+Start
+View Job
+Status: Marked Complete – Awaiting
+Customer
+Status: Marked Complete – Awaiting
+Customer
+View Job
+ Contact YAKKA
+Status: Under Review by YAKKA
+ Status: Under Review by YAKKA
+View Job
+ Contact YAKKA
+Status: Awaiting Payout from YAKKA
+Job Total: £715
+Status: Payment Released – Job
+Complete
+View Job
+View Job
+ Input breakdown
+Status: Awaiting job breakdownThis screen only appears when it is the customer not
+the tradie who initiates the job 
+Add staged payments
+stuff 
+Job Total: £715Status Cards: Tradie  
+Home
+Live jobs Past jobsHi Elleanor Harris
+Create Job
+Tap to add a new job
+Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AATotal Live jobs: 1 Job Total: £715Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AA
+Job Total: £715Living room refurbishmentJob ID: 46583
+Start Date: 5/12/25
+Location: SW1A !AAJob Total: £715Living room refurbishmentJob ID: 46583
+Job Total: £715Living room refurbishmentJob ID: 46583
+Living room refurbishmentJob ID: 46583Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AA
+
+--- PAGE 67 ---
+Hi Elleanor Harris
+View Job
+ Mark job Complete
+Status: Payment Received – Safe to
+Start
+Status: Payment Received – Safe to
+Start
+Upload Images
+Job Total: £715Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AALive jobs Past jobsCreate Job
+Tap to add a new job
+Live Jobs
+View Job
+ Mark job Complete
+Status: Payment Received – Safe to
+Start
+Status: Payment Received – Safe to
+Start
+Upload Images
+Job Total: £715Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AALive jobs Past jobsCreate Job
+Tap to add a new job
+Live Jobs
+
+--- PAGE 68 ---
+View Job
+ Mark job Complete
+Status: Payment Received – Safe to
+Start
+Status: Payment Received – Safe to
+Start
+View Job
+Status: Marked Complete – Awaiting
+Customer
+Status: Marked Complete – Awaiting
+Customer
+View Job
+ Contact YAKKA
+Status: Under Review by YAKKA
+ Status: Under Review by YAKKA
+View Job
+ Contact YAKKA
+Status: Awaiting Payout from YAKKA
+Job Total: £715
+Status: Payment Released – Job
+Complete
+View Job
+View Job
+ Input breakdown
+Status: Awaiting job breakdownThis screen only appears when it is the customer not
+the tradie who initiates the job 
+Add staged payments
+stuff Status Cards: Tradie  
+Home
+Live jobs Past jobsHi Elleanor Harris
+Create Job
+Tap to add a new job
+Total Live jobs: 1 Job Total: £715Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AA
+Job Total: £715Living room refurbishmentJob ID: 46583
+Start Date: 5/12/25
+Location: SW1A !AAJob Total: £715Living room refurbishmentJob ID: 46583
+Job Total: £715Living room refurbishmentJob ID: 46583
+Living room refurbishmentJob ID: 46583Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AA
+View Job
+ Mark job Complete
+Status: Payment Received – Safe to
+Start
+Status: Payment Received – Safe to
+Start
+Job Total: £715Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AA
+
+--- PAGE 69 ---
+Text pop up for each status: Tradie  
+Status: Waiting for Customer
+Payment
+Status: Payment Received – Safe to
+Start
+Status: Payment Received – Safe to
+Start
+Status: Marked Complete – Awaiting
+Customer
+Status: Marked Complete – Awaiting
+Customer
+Status: Under Review by YAKKA
+ Status: Under Review by YAKKA
+Status: Awaiting Payout from YAKKA
+Status: Payment Released – Job
+CompleteWhat this means:
+ The customer hasn’t paid yet. Funds will
+appear as “Received” once YAKKA confirms
+payment.
+Tip:
+ You can resend or copy your job link if they
+need it again.What this means:
+ The customer has paid in full. Funds are
+now held securely by YAKKA until the job is
+complete.
+Feel secure:  You can start work knowing
+payment is guaranteed once both sides
+confirm completion.What this means:
+ You’ve marked the job complete. The
+customer is now reviewing your work before
+confirming release of funds.
+ Customers have a short review period to
+confirm or raise a concern. You’ll be notified
+when they respond.
+What this means:
+ The customer has raised a dispute about
+part or all of this job. YAKKA’s team is
+reviewing the details.
+Tip:
+ You can upload photos or notes in the Job
+Messages section to support your case.What this means:
+ The job has been confirmed complete.
+YAKKA is processing your payout
+Tip:
+ This usually takes 1–2 business days
+depending on your bank.What this means:
+ Funds have been released and sent to your
+bank account.
+Tip:
+ You can download your invoice or view full
+payment details anytime from this job’s
+page.
+Status: Awaiting Job Breakdown
+What this means:
+The job has been sent to your tradie. They
+need to add the task breakdown and pricing
+before you can approve and pay.
+Tip:
+You can copy or resend the job link anytime
+as a reminder.
+
+--- PAGE 70 ---
+View Job
+ COPY LINK
+Status: Waiting for Customer Payment
+COPY LINK
+Status: Waiting for Customer Payment
+Upload Images 
+Upload Images  
+Message CustomerJob Total: £715Home
+Live jobs Past jobsHi Elleanor Harris
+Create Job
+Tap to add a new job
+Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AATotal Live jobs: 1 Inside each job card
+Job Total: £715Home
+Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AA
+Net to you: £679.25
+YAKKA Tip: Upload images of the before and after,
+for stronger protection. 
+Job Breakdown 
+Task 1 - Paint Walls 
+£500
+New Job
+Total Job Price
+Summary
+YAKKA Commission
+Net to You 
+£715
+£35.75
+£679.25
+What the customer will pay 
+5%
+Customers pay this total upfront into YAKKA’s secure
+account.  You’ll receive payment once the job is
+marked complete by both parties.YAKKA Tip: Upload images of the before and after,
+for stronger protection. You then scroll
+down on the page
+to see the full job
+breakdown and
+then come to
+summary Last Updated: 10/11/25, 3:45PM- link copied to
+customer The last upda ted bit , has small not e of wha t stag e, e.g. pa ymen t receiv ed 
+
+--- PAGE 71 ---
+COPY LINK
+Status: Waiting for Customer Payment
+Upload Images 
+Upload Images  
+Message CustomerInside each job card
+Job Total: £715Home
+Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AA
+Net to you: £679.25
+YAKKA Tip: Upload images of the before and after,
+for stronger protection. 
+Job Breakdown 
+Task 1 - Paint Walls 
+£500
+New Job
+Total Job Price
+Summary
+YAKKA Commission
+Net to You 
+£715
+£35.75
+£679.25
+What the customer will pay 
+5%
+Customers pay this total upfront into YAKKA’s secure
+account.  You’ll receive payment once the job is
+marked complete..YAKKA Tip: Upload images of the before and after,
+for stronger protection. Last Updated: 10/11/25, 3:45PM- link copied to
+customer As status changes different things
+automatcially change: 
+e.g. once the customer pays, add note
+saying:  Funds are securely held by
+YAKKA, your safe to start work.
+Copy link button is changed to ‘ View full
+job history in Messages →’ once payment
+is received 
+
+--- PAGE 72 ---
+M e s s a g e s
+
+--- PAGE 73 ---
+View Job
+You can click on to the
+messag e and e xpand the
+imag es 
+Pay now (click here)
+ Pay now (click here)Messages:
+Tradie side This is where can see the timeline of the job sent, payment sent, job started etc. as well as all images uploaded etc
+You can reach this from within the job card on the homepage, or the shortcut on the toolbar, where can then see all
+the chats, which can then click into  
+Messages
+Job ID: 46583Customer name: Suzie Smith
+Customer name: Suzie Smith
+Job ID: 46583
+Customer name: Suzie Smith
+Job ID: 46583
+Live jobs 
+Past jobsMessages
+Job ID: 46583Customer name: Suzie Smith
+Type message here11:03
+11:03Payment Link
+Generated 
+Payment Link
+Generated 
+Payment Receive by
+YAKKA 
+Payment Receive by
+YAKKA 
+Before Images 
+ Before Images 
+
+--- PAGE 74 ---
+Hi Elleanor Harris
+Pay now (click here)
+ Pay now (click here)
+Hi Elleanor Harris
+Customer name: Suzie Smith
+Customer name: Eva Coley
+Job ID: 46583
+Messages:
+Tradie side 
+Type message here
+11:03
+11:03
+Payment Link
+Generated 
+Payment Link
+Generated 
+Payment Receive by
+YAKKA 
+Payment Receive by
+YAKKA 
+Before Images 
+ Before Images 
+Job ID: 46583
+Customer name: Harry Winston
+Job ID: 46583
+Customer name: Eva Coley
+Job ID: 46583Messages
+Live jobs
+ View Job Past jobs
+
+--- PAGE 75 ---
+Partial Payments
+
+--- PAGE 76 ---
+Rules for partial payments 
+Only available jobs longer than 4 weeks or for upfront material costs
+Can only request up to 50% of total job cost prior to full completion 
+Prevent tradies leaving the job earlier once earnt say 80% 
+
+--- PAGE 77 ---
+Partial Payment cards: Customer  
+Status: Partial Payment Requested
+ Status: Partially Paid – Work in Progress
+W hat this means:
+ Your tradie has requested a partial payment
+for work completed so far.
+ Please review the request and approve only
+if you’re happy with the progress.
+Note:
+ Partial payments are capped at 50% of the
+total job value, and only available for upfront
+material jobs, or jobs lasting more than 4
+weeks. W hat this means:
+ A partial payment has been released.
+ The remaining balance will be paid once
+the job is completed and confirmed.
+Tip:
+Make sure you continue to capture photos if
+case you need to raise a dispute.
+Job Total: £715Living room refurbishmentJob ID: 46583
+Start Date: 5/12/25
+Location: SW1A !AA
+Status: Partial Payment Requested
+ Status: Partial Payment Requested
+Mark job Complete
+View Job
+Raise a Dispute
+Job Total: £715Living room refurbishmentJob ID: 46583
+Start Date: 5/12/25
+Location: SW1A !AA
+Status: Partially Paid – Work in Progress
+ Status: Partially Paid – Work in Progress
+Mark job Complete
+View Job
+Raise a Dispute
+
+--- PAGE 78 ---
+Hi Elleanor Harris
+Request part payment
+Request Payment
+Uplaod Images
+Paint Walls 
+£500
+Fit Shelves
+£135
+ Paint Ceiling
+£80
+Task 
+Cost
+Partial PaymentSelect the tasks you’ve completed or materials
+you’ve purchased. The remaining job payment
+will stay protected.
+Reason for Request
+You are requesting: £500
+View Job
+ Mark job Complete
+Upload Images
+Job Total: £715Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AALive jobs Past jobsCreate Job
+Tap to add a new job
+Live Jobs
+View Job
+ Mark job Complete
+Upload Images
+Job Total: £715Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AALive jobs Past jobsCreate Job
+Tap to add a new job
+Live Jobs
+Status: Partial Payment Requested
+ Status: Partial Payment Requested
+Status: Partially Paid – Work in Progress
+ Status: Partially Paid – Work in Progress
+
+--- PAGE 79 ---
+View Job
+ Mark job Complete
+Upload Images
+Job Total: £715Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AALive jobs Past jobsCreate Job
+Tap to add a new job
+Live Jobs
+View Job
+ Mark job Complete
+Upload Images
+Job Total: £715Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AALive jobs Past jobsCreate Job
+Tap to add a new job
+Live Jobs
+Status: Partial Payment Requested
+ Status: Partial Payment Requested
+Status: Partially Paid – Work in Progress
+ Status: Partially Paid – Work in Progress
+View Payment DetailsPART PAYMENT APPROVED!
+Your client has approved payment
+for part of this job. £580 is now
+being released to your bank
+account.
+The rest of the job payment remains
+protected.
+
+--- PAGE 80 ---
+Mark job as complete
+
+--- PAGE 81 ---
+UPLOAD IMAGES
+MARK JOB COMPLETE
+View Job
+ Mark job Complete
+Status: Payment Received – Safe to
+Start
+Status: Payment Received – Safe to
+Start
+Upload Images
+Job Total: £715Living room refurbishmentJob ID: 46583
+Proposed Start Date: 5/12/25
+Location: SW1A !AALive jobs Past jobs
+Live Jobs
+UPLOAD IMAGES
+MARK JOB COMPLETEHome
+DON’T FORGET YOUR AFTER
+PHOTOS! 
+If a customer disputes the job, images
+help us resolve it fairly and quickly.Create Job
+Tap to add a new job
+DON’T FORGET YOUR AFTER
+PHOTOS! 
+If a customer disputes the job,
+images help us resolve it fairly and
+quickly.
+
+--- PAGE 82 ---
+View Job
+ Mark job CompleteJob Total: £715Living room refurbishment
+Location: SW1A !AA
+Status: Payment Received – Safe to
+Start
+Status: Payment Received – Safe to
+Start
+UPLOAD IMAGES
+MARK JOB COMPLETEMark job as complete- tradieThis is wher e we advise them
+to tak e pictur es
+They g et notif cation on
+proposed start da te to
+take and upload pictur es
+of the bef ore (sa ying also
+take pictur es a t the end)  
+Then as they g o to click
+complet e it sa ys tak e and
+upload imag es ag ain
+These ar e all then st ored
+in the cha t feature of the
+job Home
+Live jobs Past jobsHi Elleanor Harris
+Create Job
+Tap to add a new job
+Total Live jobs: 1 
+Job ID: 46583
+Proposed Start Date: 5/12/25Home
+DON’T FORGET YOUR AFTER
+PHOTOS! 
+If a customer disputes the job, images
+help us resolve it fairly and quickly.
+Home
+NICE W ORK - JOB COMPLETE!
+We’ve let your customer know it’s time
+to confirm the job.
+ If they don’t respond within 7 days,
+your payment will be released
+automatically.
+YAKKA protects your payment and
+ensures fair confirmation for both sides.
+
+--- PAGE 83 ---
+Add staged payments
+approvals 
+
+--- PAGE 84 ---
+D i s p u t e
+
+--- PAGE 85 ---
+Version 1 
+Customer taps Report an Issue
+→ opens a dispute form with text + photo uploads.
+✔ Form sends email → disputes@yakka…
+including:
+job ID
+job breakdown
+customer’s complaint
+customer’s photos
+time/date
+customer name
+✔ App updates job status → Under Review by YAKKA
+System message in chat:
+Customer raised an issue. YAKKA is reviewing the
+details.
+✔ You investigate manually via email
+You reply to customer & tradie by email.
+✔ You manually update job status in the database
+✔ You write final outcome to customer & tradie
+Either by email or copy/paste inside chat.Version 2: 
+this would all be handled in app, with messages via the
+YAKKA support account within the same message chat
+that the builder and customer have spoken on so full
+job history is always kept in one place. we would then
+be alble to log in search ID and see all information,
+messages, images etc to do with the job, as well as
+message in the chat. 
+
+--- PAGE 86 ---
+View Job
+ Contact YAKKA
+Status: Under Review by YAKKA
+ Status: Under Review by YAKKA
+Live jobs 
+Past jobs
+Create Job
+Tap to add a new job
+Job Total: £715Living room refurbishmentJob ID: 46583Total Live jobs: 1 
+DISPUTE RAISED
+Job ID: 
+The customer has raised a
+dispute regarding one or
+more parts of this job.
+Please review the details and
+provide any evidence that
+may assist our review.
+View Dispute 
+They will recive notification saying a dispute has been raised. NExt
+time they go into the app or click the noftication the below pop up
+will appear 
+Home
+Hi Elleanor Harris
+Disputes
+Live jobs 
+A customer has raised a
+dispute, what happens
+now? 
+A dispute has been raised
+regarding one or more items
+in your job breakdown.
+The customer has submitted
+images and an explanation of
+their concerns.
+ Payment for this job is
+temporarily paused while
+YAKKA reviews the details.FULL TEXT for Info icon: 
+A dispute has been raised regarding one or more items in your job
+breakdown.
+The customer has submitted images and an explanation of their
+concerns.
+ Payment for this job is temporarily paused while YAKKA reviews
+the details.
+You now have an opportunity to upload your own images, notes, or
+other supporting evidence.
+ YAKKA will compare both sides against the agreed job breakdown
+and the information provided.
+We will review the case and issue a decision within 5 days.
+ Both you and the customer will be notified once the review is
+complete, and payment will be released accordingly.
+
+--- PAGE 87 ---
+Hi Elleanor Harris
+Hi Elleanor Harris
+Get paid on time (everytime) — without
+chasing customers.
+Live jobs Past jobsCreate Job
+Tap to add a new job
+No active jobsHi Ellie
+DISPUTE RAISED
+Job ID: 
+The customer has raised a
+dispute regarding one or more
+parts of this job.
+Please review the details and
+provide any evidence that may
+assist our review.
+View Dispute 
+Submit Evidence
+ Accept Customer Refund
+View Payment Summary
+Fit Shelves£135
+ Paint Ceiling
+£80
+Paid
+Under Review
+Paint Walls £500
+PaidJob Dispute Review
+Task AmountStatus
+Customer concern:
+Customer reports that the shelves were not
+securely fitted.Customer has disputed part of this job.     
+£580 has been released and is on it’s way to you,
+£135 is currently on hold.  
+£135
+Your next step 
+Hi Elleanor Harris
+Job 46582
+Disputed Item: ‘Fit Shelves’ 
+Upload Images
+ Send
+Describe in as much detail as possible how
+the job was completed and provide pictures
+of the finished job. 
+
+--- PAGE 88 ---
+Hi Elleanor Harris
+Get paid on time (everytime) — without
+chasing customers.
+Live jobs Past jobsCreate Job
+Tap to add a new job
+No active jobsHi Ellie
+DISPUTE RESOLVED
+Job ID: 
+YAKKA has completed the
+review of this dispute.
+ Tap below to see the outcome.
+View Outcome 
+YAKKA Dispute Review SummaryYAKKA has reviewed the job details and
+evidence submitted by both parties.
+ The final decision for this dispute is shown
+below.
+Disputed Items
+Paint Walls 
+£500
+Fit Shelves
+£135
+ Paint Ceiling
+£80
+Refunded 
+Task 
+Cost
+Outcome
+Release
+Release
+Dispute Form
+This dispute has now been
+resolved. No further action is
+required.
+Download Summary
+Back to Home
+Final Payment SummaryFinal cost for this job: £615
+You paid £750 upfront.
+ £135 has been refunded following the
+dispute review.
+Share Feedback on this
+Experience 
+Hi Elleanor Harris
+Final Payment Summary
+Amount released to you: £580
+Total job value: £750
+Payment protection fee: £29
+Amount refunded to customer: £135
+Fit Shelves
+ Paint Ceiling£80
+Paid
+Refunded 
+Paint Walls £500
+PaidJob Dispute Review
+Task AmountStatusYakka has reviewed the job details and evidence
+submitted by both parties. The final decision for
+this dispute is shown below. 
+£135
+Download Summary
+Back to Home
+
+--- PAGE 89 ---
+When a dispite is raised the message function between the customer
+and the tradie is no longer fucntional to save nasty comments
+between them 
+
+--- PAGE 90 ---
+Reviews 
+Once paid- notification saying payment received- and underneath, leave
+review of job 
+Then open app and pop up appears like uber with just star rating to rate the
+customer and then option to add text 
+
+--- PAGE 91 ---
+View Job
+ Contact YAKKA
+Status: Under Review by YAKKA
+ Status: Under Review by YAKKA
+Live jobs 
+Past jobs
+Create Job
+Tap to add a new job
+Job Total: £715Living room refurbishmentJob ID: 46583Total Live jobs: 1 
+DISPUTE RESOLVED
+Job ID: 
+YAKKA has completed the
+review of this dispute.
+ Tap below to see the
+outcome.
+View Outcome 
+Review Tradie
+SUBMIT REVIEW
+Home
+Hi Elleanor HarrisReview pop-up only appears once job is marked completed both sides or
+dispute is resolved. They will also receive a phone notifcation and email
+promoting them to leave a review 
+Review
+HOW  W AS YOUR EXPERIENCE?
+Your job with [Tradie Name] is now
+complete. Let us know how they did.
+Rating
+TLeave a short comment (optional)
+Hom
+e
+NICE W ORK - JOB COMPLETE!
+We’ve let your customer know it’s time
+to confirm the job.
+ If they don’t respond within 7 days,
+your payment will be released
+automatically.
+YAKKA protects your payment and
+ensures fair confirmation for both sides.
+REVIEW  CUSTOMER
+
+--- PAGE 92 ---
+Financial tracker (TBC) 
+
+--- PAGE 93 ---
+YAKKA  ADMIN ACCOUNT
+
+--- PAGE 94 ---
+Even though disputes at the beggingin will be handled via email. We
+still need a basic admin accoutn which gives us access to all jobs on the
+platform, where we can go in view the brekdown, messages, details etc. 
+As well as edit the status when disputes have been resolved, and input
+the outcome etc. 
+We should be able to search by job number 
+This account will then evolve to be where all disputes are handles (via
+the web version of it) 

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yakka — Secure Payments Between Tradies &amp; Clients</title>
+  <meta name="description" content="Yakka is a secure payment platform that protects both tradies and clients with escrow payments, milestone tracking, and dispute resolution.">
+  <link rel="stylesheet" href="styles.css">
+  <link
+rel="icon"
+type="image/svg+xml"
+href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔶</text></svg>"
+>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">YAKKA</a>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#trust">Security</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#cta" class="nav-cta">Get Started</a></li>
+      </ul>
+      <button
+class="hamburger"
+id="hamburger"
+aria-label="Toggle navigation menu"
+aria-expanded="false"
+>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Navigation -->
+  <div
+class="mobile-nav"
+id="mobile-nav"
+aria-hidden="true"
+>
+    <a href="#features">Features</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#benefits">Benefits</a>
+    <a href="#trust">Security</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#cta">Get Started</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="animate-on-scroll">
+        <span class="hero-badge">🛡️ Trusted Payment Protection</span>
+        <h1>Secure Payments Between <span>Tradies</span> &amp; Clients</h1>
+        <p class="hero-subtitle">Money held securely in escrow until the job is done right. No more chasing payments. No more risk. Just trust.</p>
+        <div class="hero-ctas">
+          <a href="#cta" class="btn-primary">Get Started Free →</a>
+          <a href="#how-it-works" class="btn-secondary">See How It Works</a>
+        </div>
+      </div>
+      <div class="hero-stats animate-on-scroll delay-2">
+        <div class="hero-stat">
+          <div class="hero-stat-number">2%</div>
+          <div class="hero-stat-label">Client Protection Fee</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">5%</div>
+          <div class="hero-stat-label">Tradie Commission</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">7 Days</div>
+          <div class="hero-stat-label">Auto-Release Protection</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">Features</span>
+        <h2>Everything You Need for Secure Trade Payments</h2>
+        <p>Yakka provides a complete payment protection system designed specifically for tradespeople and their clients.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card animate-on-scroll delay-1">
+          <div class="feature-icon">🔒</div>
+          <h3>Escrow Payments</h3>
+          <p>Customer pays upfront, funds held securely by Yakka until the job is confirmed complete. Both parties protected.</p>
+        </div>
+        <div class="feature-card animate-on-scroll delay-2">
+          <div class="feature-icon">📋</div>
+          <h3>Job Breakdowns</h3>
+          <p>Detailed task-by-task pricing serves as a digital quote and proof of agreement — your best protection in any dispute.</p>
+        </div>
+        <div class="feature-card animate-on-scroll delay-3">
+          <div class="feature-icon">🎯</div>
+          <h3>Milestone Tracking</h3>
+          <p>Track job progress in real-time with clear status indicators. Both parties always know exactly where things stand.</p>
+        </div>
+        <div class="feature-card animate-on-scroll delay-4">
+          <div class="feature-icon">⚖️</div>
+          <h3>Dispute Resolution</h3>
+          <p>Structured process with evidence upload, reviewed by Yakka within 5 working days. Fair outcomes based on agreed terms.</p>
+        </div>
+        <div class="feature-card animate-on-scroll delay-5">
+          <div class="feature-icon">✅</div>
+          <h3>Identity Verification</h3>
+          <p>Stripe Identity for ID and facial verification plus Companies House checks. Know who you're working with.</p>
+        </div>
+        <div class="feature-card animate-on-scroll delay-1">
+          <div class="feature-icon">💳</div>
+          <h3>Flexible Payments</h3>
+          <p>Bank transfer, credit/debit card, Apple Pay and Google Pay. Partial payments available for longer jobs or upfront materials.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">How It Works</span>
+        <h2>Simple, Secure, Straightforward</h2>
+        <p>Whether you're a tradie or a client, Yakka makes secure payments effortless.</p>
+      </div>
+      <div class="flow-tabs animate-on-scroll">
+        <button class="flow-tab active" data-tab="customer">For Clients</button>
+        <button class="flow-tab" data-tab="tradie">For Tradies</button>
+      </div>
+      <div class="flow-content active" id="flow-customer">
+        <div class="flow-steps animate-on-scroll">
+          <div class="flow-step">
+            <div class="flow-step-number">1</div>
+            <h4>Post Your Job</h4>
+            <p>Enter job details, location, and proposed start date</p>
+          </div>
+          <div class="flow-step">
+            <div class="flow-step-number">2</div>
+            <h4>Get a Quote</h4>
+            <p>Tradie adds detailed task breakdown with pricing</p>
+          </div>
+          <div class="flow-step">
+            <div class="flow-step-number">3</div>
+            <h4>Pay Securely</h4>
+            <p>Pay into Yakka's escrow — money held safely</p>
+          </div>
+          <div class="flow-step">
+            <div class="flow-step-number">4</div>
+            <h4>Track Progress</h4>
+            <p>Monitor status, message tradie, upload photos</p>
+          </div>
+          <div class="flow-step">
+            <div class="flow-step-number">5</div>
+            <h4>Release Payment</h4>
+            <p>Confirm satisfaction and payment is released</p>
+          </div>
+        </div>
+      </div>
+      <div class="flow-content" id="flow-tradie">
+        <div class="flow-steps animate-on-scroll">
+          <div class="flow-step">
+            <div class="flow-step-number">1</div>
+            <h4>Receive a Job</h4>
+            <p>Get a job link from a customer or create your own</p>
+          </div>
+          <div class="flow-step">
+            <div class="flow-step-number">2</div>
+            <h4>Add Breakdown</h4>
+            <p>Detail tasks with titles, descriptions, and prices</p>
+          </div>
+          <div class="flow-step">
+            <div class="flow-step-number">3</div>
+            <h4>Customer Pays</h4>
+            <p>Funds secured in escrow — safe to start work</p>
+          </div>
+          <div class="flow-step">
+            <div class="flow-step-number">4</div>
+            <h4>Complete Work</h4>
+            <p>Upload before/after photos, mark job complete</p>
+          </div>
+          <div class="flow-step">
+            <div class="flow-step-number">5</div>
+            <h4>Get Paid</h4>
+            <p>Payment released automatically once confirmed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="benefits" id="benefits">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">Benefits</span>
+        <h2>Built for Both Sides of the Job</h2>
+        <p>Yakka protects tradies and clients equally, creating trust and transparency in every transaction.</p>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefits-column animate-on-scroll delay-1">
+          <div class="benefits-column-header">
+            <div class="benefits-column-icon">🔧</div>
+            <h3>For Tradies</h3>
+          </div>
+          <div class="benefits-list">
+            <div class="benefit-item">
+              <div class="benefit-check">✓</div>
+              <p><strong>Guaranteed Payment</strong> — Get paid on time, every time, without chasing customers</p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-check">✓</div>
+              <p><strong>No Payment Chasing</strong> — Payment released automatically after 7 days if customer doesn't respond</p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-check">✓</div>
+              <p><strong>Dispute Protection</strong> — Detailed job breakdowns and photo evidence protect against unfair claims</p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-check">✓</div>
+              <p><strong>Partial Payments</strong> — Request up to 50% for long jobs or upfront material costs</p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-check">✓</div>
+              <p><strong>Professional Profile</strong> — Build reputation through customer ratings and verified credentials</p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-check">✓</div>
+              <p><strong>Team Management</strong> — Add team members who can update jobs and upload photos</p>
+            </div>
+          </div>
+        </div>
+        <div class="benefits-column animate-on-scroll delay-2">
+          <div class="benefits-column-header">
+            <div class="benefits-column-icon">🏠</div>
+            <h3>For Clients</h3>
+          </div>
+          <div class="benefits-list">
+            <div class="benefit-item">
+              <div class="benefit-check">✓</div>
+              <p><strong>Payment Protection</strong> — Pay securely, released only when the job is done right</p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-check">✓</div>
+              <p><strong>Escrow Security</strong> — Money held by Yakka, only released when you confirm satisfaction</p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-check">✓</div>
+              <p><strong>Clear Pricing</strong> — Detailed task-by-task breakdown before paying, no surprises</p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-check">✓</div>
+              <p><strong>Dispute Resolution</strong> — If work isn't as agreed, raise a concern and get relevant amount refunded</p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-check">✓</div>
+              <p><strong>Verified Tradies</strong> — ID verification, Companies House checks, and credit checks</p>
+            </div>
+            <div class="benefit-item">
+              <div class="benefit-check">✓</div>
+              <p><strong>Low Cost</strong> — Just 2% protection fee covers secure handling and dispute protection</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust & Security Section -->
+  <section class="trust" id="trust">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">Trust &amp; Security</span>
+        <h2>Bank-Level Security for Every Job</h2>
+        <p>Yakka uses secure, encrypted payment processing to protect your money and your data.</p>
+      </div>
+      <div class="trust-grid">
+        <div class="trust-card animate-on-scroll delay-1">
+          <div class="trust-icon">🛡️</div>
+          <h3>Escrow Protection</h3>
+          <p>Funds held by Yakka, never sent directly to the tradie until work is confirmed complete</p>
+        </div>
+        <div class="trust-card animate-on-scroll delay-2">
+          <div class="trust-icon">🔐</div>
+          <h3>Stripe Encryption</h3>
+          <p>Secure, encrypted payment processing powered by Stripe — the same technology used by leading platforms</p>
+        </div>
+        <div class="trust-card animate-on-scroll delay-3">
+          <div class="trust-icon">🪪</div>
+          <h3>Identity Verification</h3>
+          <p>Stripe Identity for ID and facial verification of all tradies before they can receive payments</p>
+        </div>
+        <div class="trust-card animate-on-scroll delay-4">
+          <div class="trust-icon">🏢</div>
+          <h3>Companies House Checks</h3>
+          <p>Background verification for registered businesses ensures you're working with legitimate professionals</p>
+        </div>
+        <div class="trust-card animate-on-scroll delay-5">
+          <div class="trust-icon">📸</div>
+          <h3>Photo Evidence System</h3>
+          <p>Before and after photos stored securely — protection for both parties if any dispute arises</p>
+        </div>
+        <div class="trust-card animate-on-scroll delay-1">
+          <div class="trust-icon">⏱️</div>
+          <h3>5-Day Resolution</h3>
+          <p>Structured dispute process with evidence-based decisions delivered within 5 working days</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">Testimonials</span>
+        <h2>Trusted by Tradies &amp; Clients</h2>
+        <p>See what people are saying about using Yakka for their trade payments.</p>
+      </div>
+      <div class="testimonial-carousel animate-on-scroll">
+        <div class="testimonial-track">
+          <div class="testimonial-slides" id="testimonial-slides">
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">"Since using Yakka, I haven't had to chase a single payment. The money is there before I start, and it's released as soon as the customer confirms. It's completely changed how I run my business."</p>
+                <div class="testimonial-author">
+                  <span class="testimonial-name">James Mitchell</span>
+                  <span class="testimonial-role">Plumber, Manchester</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">"I was nervous about paying a large sum upfront for my kitchen renovation. With Yakka, I knew my money was protected until I was happy with the work. The milestone tracking gave me complete peace of mind."</p>
+                <div class="testimonial-author">
+                  <span class="testimonial-name">Sarah Thompson</span>
+                  <span class="testimonial-role">Homeowner, Bristol</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">"The job breakdown feature is brilliant. My customers can see exactly what they're paying for, and it protects me if there's ever a disagreement. Professional quoting made simple."</p>
+                <div class="testimonial-author">
+                  <span class="testimonial-name">David Clarke</span>
+                  <span class="testimonial-role">Electrician, Birmingham</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">"We had a small issue with some tiling work and the dispute process was fair and straightforward. Yakka reviewed the evidence and resolved it within days. I felt completely supported."</p>
+                <div class="testimonial-author">
+                  <span class="testimonial-name">Rachel Edwards</span>
+                  <span class="testimonial-role">Homeowner, Leeds</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-nav">
+          <button
+class="testimonial-arrow"
+id="prev-testimonial"
+aria-label="Previous testimonial"
+>←</button>
+          <div class="testimonial-dots" id="testimonial-dots">
+            <span class="testimonial-dot active" data-index="0"></span>
+            <span class="testimonial-dot" data-index="1"></span>
+            <span class="testimonial-dot" data-index="2"></span>
+            <span class="testimonial-dot" data-index="3"></span>
+          </div>
+          <button
+class="testimonial-arrow"
+id="next-testimonial"
+aria-label="Next testimonial"
+>→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section" id="cta">
+    <div class="container">
+      <div class="animate-on-scroll">
+        <h2>Ready to Protect Your Payments?</h2>
+        <p>Join thousands of tradies and clients who trust Yakka for secure, hassle-free trade payments.</p>
+        <a href="#hero" class="btn-primary pulse-animation">Get Started with Yakka →</a>
+        <div class="cta-features">
+          <div class="cta-feature">
+            <span class="cta-feature-icon">✓</span>
+            <span>Free to sign up</span>
+          </div>
+          <div class="cta-feature">
+            <span class="cta-feature-icon">✓</span>
+            <span>No monthly fees</span>
+          </div>
+          <div class="cta-feature">
+            <span class="cta-feature-icon">✓</span>
+            <span>Pay only when you use it</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="nav-logo">YAKKA</span>
+          <p>The secure payment platform that protects both tradies and clients. Money held in escrow until the job is done right.</p>
+        </div>
+        <div class="footer-column">
+          <h4>Platform</h4>
+          <a href="#features">Features</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#benefits">Benefits</a>
+          <a href="#trust">Security</a>
+        </div>
+        <div class="footer-column">
+          <h4>For Users</h4>
+          <a href="#benefits">For Tradies</a>
+          <a href="#benefits">For Clients</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#cta">Get Started</a>
+        </div>
+        <div class="footer-column">
+          <h4>Company</h4>
+          <a href="#hero">About Yakka</a>
+          <a href="#trust">Trust &amp; Safety</a>
+          <a href="#features">Pricing</a>
+          <a href="#hero">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Yakka. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#hero">Privacy Policy</a>
+          <a href="#hero">Terms of Service</a>
+          <a href="#hero">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
