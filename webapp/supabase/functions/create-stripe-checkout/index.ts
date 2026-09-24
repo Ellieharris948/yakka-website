@@ -327,9 +327,7 @@ Deno.serve(async req => {
           message: 'Stripe Checkout did not complete after a server attempt.',
           details: { operationKey: operationContext.operationKey, error: message },
         });
-      } catch (alertError) {
-        console.error('Could not save Checkout failure details', alertError);
-      }
+      } catch {}
     }
     return jsonResponse({ error: error instanceof Error ? error.message : 'Unexpected error' }, 500);
   }

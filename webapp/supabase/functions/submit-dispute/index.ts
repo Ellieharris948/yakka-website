@@ -91,13 +91,13 @@ Deno.serve(async req => {
 
     const [{ data: messages }, { data: photos }, { data: profile }] = await Promise.all([
       admin.from('messages').select('sender_id,body,created_at').eq('job_id', jobId).order('created_at'),
-      admin.from('job_photos').select('stage,note,file_url,uploaded_by,created_at').eq('job_id', jobId).order('created_at'),
+      admin.from('job_photos').select('id,stage,note,uploaded_by,created_at').eq('job_id', jobId).order('created_at'),
       admin.from('profiles').select('name,email').eq('id', user.id).maybeSingle(),
     ]);
     const customerEmail = profile?.email || user.email || '';
     const itemHtml = items.map((item: any) => `<li><strong>${escapeHtml(item.title)}</strong> — £${(Number(item.amountCents || 0) / 100).toFixed(2)}<br>${escapeHtml(item.details)}<br>Evidence IDs: ${escapeHtml(item.evidencePhotoIds.join(', '))}</li>`).join('');
     const chatHtml = (messages || []).map((message: any) => `<li>${escapeHtml(message.created_at)} — ${escapeHtml(message.sender_id)}: ${escapeHtml(message.body)}</li>`).join('');
-    const photoHtml = (photos || []).map((photo: any) => `<li>${escapeHtml(photo.stage)} — <a href="${escapeHtml(photo.file_url)}">view image</a> ${escapeHtml(photo.note || '')}</li>`).join('');
+    const photoHtml = (photos || []).map((photo: any) => `<li>${escapeHtml(photo.stage)} — evidence ${escapeHtml(photo.id)} ${escapeHtml(photo.note || '')}</li>`).join('');
 
     let emailSent = false;
     if (RESEND_API_KEY && FROM_EMAIL && customerEmail) {
@@ -106,7 +106,7 @@ Deno.serve(async req => {
         headers: { Authorization: `Bearer ${RESEND_API_KEY}`, 'Content-Type': 'application/json', 'Idempotency-Key': `dispute-${dispute.id}` },
         body: JSON.stringify([
           { from: FROM_EMAIL, to: [SUPPORT_EMAIL], reply_to: customerEmail, subject: `[${requestNumber}] YAKKA dispute — ${job.title}`,
-            html: `<h2>New dispute ${requestNumber}</h2><p>Job: ${escapeHtml(job.ref_code || job.id)} — ${escapeHtml(job.title)}</p><h3>Disputed items</h3><ul>${itemHtml}</ul><h3>Full job chat</h3><ul>${chatHtml}</ul><h3>All job images</h3><ul>${photoHtml}</ul>` },
+            html: `<h2>New dispute ${requestNumber}</h2><p>Job: ${escapeHtml(job.ref_code || job.id)} — ${escapeHtml(job.title)}</p><h3>Disputed items</h3><ul>${itemHtml}</ul><h3>Full job chat</h3><ul>${chatHtml}</ul><h3>Job image records</h3><ul>${photoHtml}</ul><p>Open the authenticated YAKKA admin dashboard to review image evidence.</p>` },
           { from: FROM_EMAIL, to: [customerEmail], reply_to: SUPPORT_EMAIL, subject: `We received your YAKKA dispute ${requestNumber}`,
             html: `<p>Hi ${escapeHtml(profile?.name || 'there')},</p><p>We received your dispute and your evidence is now under review. Payment for the disputed items remains protected.</p><p><strong>Reference: ${requestNumber}</strong></p><p>We aim to respond within 5 working days.</p><p>YAKKA Support</p>` },
         ]),

@@ -6,6 +6,7 @@ import { supabase } from '../lib/supabase';
 import { buildJobPaymentBreakdown, buildPartialReleaseBreakdown } from '../utils/jobPayments';
 import { formatGBPCents } from '../utils/money';
 import { invokeEdgeFunction } from '../utils/edgeFunctions';
+import { signJobImageRows } from '../utils/jobImages';
 import BrandScreenHeader from '../components/BrandScreenHeader';
 import ResponsivePageScrollView from '../components/ResponsivePageScrollView';
 
@@ -65,9 +66,16 @@ export default function PartialPaymentReview({ route }: any) {
     setIsClient(auth.user?.id === jobRow.client_id);
     const photoIds = [...new Set((data || []).flatMap(request => request.evidence_photo_ids || []))] as string[];
     if (photoIds.length) {
-      const photos = await supabase.from('job_photos').select('id,file_url').eq('job_id', jobId).in('id', photoIds);
+      const photos = await supabase.from('job_photos').select('id,file_url,storage_path').eq('job_id', jobId).in('id', photoIds);
       if (photos.error) setLoadError('We could not load the supporting evidence. Please try again before deciding.');
-      else setEvidence(Object.fromEntries((photos.data || []).map(photo => [photo.id, photo.file_url])));
+      else {
+        try {
+          const signedPhotos = await signJobImageRows(photos.data || []);
+          setEvidence(Object.fromEntries(signedPhotos.filter(photo => photo.file_url).map(photo => [photo.id, photo.file_url!])));
+        } catch {
+          setLoadError('We could not open the supporting evidence securely. Please try again before deciding.');
+        }
+      }
     } else setEvidence({});
     setLoading(false);
   }, [jobId]);

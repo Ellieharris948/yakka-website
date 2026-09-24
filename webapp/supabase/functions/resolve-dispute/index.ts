@@ -341,9 +341,7 @@ Deno.serve(async req => {
           message: 'A dispute settlement money movement failed and needs review.',
           details: { operationKey: activeOperation.operationKey, error: message },
         });
-      } catch (alertError) {
-        console.error('Could not save dispute settlement alert', alertError);
-      }
+      } catch {}
     }
     if (settlementContext) {
       try {
@@ -354,7 +352,7 @@ Deno.serve(async req => {
           message: 'A confirmed settlement needs review. Some money movements may already have succeeded.',
           details: { error: message, disputeId: settlementContext.disputeId },
         });
-      } catch (alertError) { console.error('Could not save settlement alert', alertError); }
+      } catch {}
     }
     return jsonResponse({ error: message }, 500);
   }

@@ -5,7 +5,7 @@
 insert into storage.buckets (id, name, public)
 values
   ('avatars', 'avatars', true),
-  ('job-images', 'job-images', true)
+  ('job-images', 'job-images', false)
 on conflict (id) do update set public = excluded.public;
 
 alter table public.profiles enable row level security;

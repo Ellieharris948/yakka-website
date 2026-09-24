@@ -13,6 +13,7 @@ import {
 import { useFocusEffect, useNavigation } from '@react-navigation/native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { supabase } from '../lib/supabase';
+import { isTrustedJobImageUrl } from '../utils/jobImages';
 import { sellerMarksDone, clientNotDone, setClientFinalRequestSent } from '../api/jobs';
 import { BRAND_COLORS, BRAND_GRADIENT, BRAND_STATUS_COLORS, BRAND_TYPOGRAPHY, getBrandHeaderGradient } from '../theme';
 import { getJobStatusMeta } from '../utils/statusStyles';
@@ -807,8 +808,8 @@ const confirmCompleted = useCallback(async () => {
           {messages.map(item => {
             const mine = item?.user?._id === me.id;
             const rawText = typeof item?.text === 'string' ? item.text : String(item?.text ?? '');
-            const imageUrl = rawText.match(/https?:\/\/\S+\.(?:jpe?g|png|webp)(?:\?\S*)?/i)?.[0]
-              || rawText.match(/https?:\/\/[^\s]+\/storage\/v1\/object\/public\/job-images\/[^\s]+/i)?.[0];
+            const possibleImageUrl = rawText.match(/https?:\/\/[^\s]+\/storage\/v1\/object\/sign\/job-images\/[^\s]+/i)?.[0];
+            const imageUrl = isTrustedJobImageUrl(possibleImageUrl) ? possibleImageUrl : null;
             const messageText = imageUrl ? rawText.replace(imageUrl, '').trim() : rawText;
             return (
               <View key={item._id} style={{ alignItems: mine ? 'flex-end' : 'flex-start', marginVertical: 5 }}>

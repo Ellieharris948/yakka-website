@@ -114,14 +114,11 @@ export async function declineJobWithReason(jobId: string, reason: string) {
   if (!user) throw new Error('Not authenticated');
 
   const body = `Denied: ${reason?.trim() || '(no reason provided)'}`;
-  const { error: msgErr } = await supabase.from('messages').insert({
+  await supabase.from('messages').insert({
     job_id: jobId,
     sender_id: user.id,
     body,
   });
-  if (msgErr) {
-    console.warn('Could not post decline message', msgErr);
-  }
 
   // Update without returning representation (avoids 400 even if RLS blocks select)
   const { error: updErr } = await supabase

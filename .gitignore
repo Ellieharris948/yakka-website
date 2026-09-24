@@ -1,4 +1,5 @@
 temp/
+.local/
 webapp/.env
 webapp/supabase/.env
 webapp/node_modules/

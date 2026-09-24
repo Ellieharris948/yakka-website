@@ -285,7 +285,6 @@ async function processEvent(event: any) {
 Deno.serve(async req => {
   if (req.method !== 'POST') return new Response('Method not allowed', { status: 405 });
   if (!stripe || !webhookSecrets.length) {
-    console.error('Stripe webhook secrets are not configured');
     return new Response('Stripe webhook is not configured', { status: 500 });
   }
 
@@ -295,8 +294,7 @@ Deno.serve(async req => {
   let event: any;
   try {
     event = await constructStripeEvent(stripe, raw, signature, webhookSecrets);
-  } catch (error) {
-    console.error('Stripe webhook signature verification failed');
+  } catch {
     return new Response('Invalid Stripe signature', { status: 401 });
   }
 
@@ -323,7 +321,6 @@ Deno.serve(async req => {
     if (processedError) throw processedError;
     return new Response('ok', { status: 200 });
   } catch (error) {
-    console.error(`Stripe webhook ${eventType} ${eventId} failed`, error);
     await supabase.from('webhook_events').update({
       processing_started_at: null,
       last_error: error instanceof Error ? error.message.slice(0, 2_000) : 'Unknown webhook error',

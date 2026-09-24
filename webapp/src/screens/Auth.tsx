@@ -24,6 +24,7 @@ import {
 import { ensureMyProfile } from "../api/profile";
 import BrandWordmark from "../components/BrandWordmark";
 import { supabase } from "../lib/supabase";
+import { setRememberSession } from "../lib/authStorage";
 import { BRAND_COLORS, BRAND_RADII, getBrandHeaderGradient } from "../theme";
 import BottomCurtain from "../components/BottomCurtain";
 import { getResponsiveScreenGutter } from "../utils/layout";
@@ -41,7 +42,7 @@ export default function Auth() {
   const [password, setPassword] = useState("");
   const [passwordVisible, setPasswordVisible] = useState(false);
   const [busy, setBusy] = useState(false);
-  const [rememberMe, setRememberMe] = useState(true);
+  const [rememberMe, setRememberMe] = useState(false);
   const [forgotOpen, setForgotOpen] = useState(false);
   const [resetEmail, setResetEmail] = useState("");
   const [sendingReset, setSendingReset] = useState(false);
@@ -54,6 +55,7 @@ export default function Auth() {
 
     try {
       setBusy(true);
+      setRememberSession(rememberMe);
       const { error } = await supabase.auth.signInWithPassword({
         email: normalizedEmail,
         password,
@@ -61,7 +63,6 @@ export default function Auth() {
       if (error) throw error;
 
       await ensureMyProfile();
-      void rememberMe;
     } catch (e: any) {
       Alert.alert("Sign-in failed", e.message || "Please try again.");
     } finally {
@@ -254,25 +255,27 @@ export default function Auth() {
               Forgot password?
             </Button>
 
-            <View
-              style={{
-                flexDirection: "row",
-                alignItems: "center",
-                marginTop: -4,
-              }}
-            >
-              <Checkbox
-                status={rememberMe ? "checked" : "unchecked"}
-                onPress={() => setRememberMe((value) => !value)}
-                color={BRAND_COLORS.orange}
-              />
-              <Text
-                variant="bodyMedium"
-                style={{ color: BRAND_COLORS.white }}
+            {Platform.OS === "web" && (
+              <View
+                style={{
+                  flexDirection: "row",
+                  alignItems: "center",
+                  marginTop: -4,
+                }}
               >
-                Remember me
-              </Text>
-            </View>
+                <Checkbox
+                  status={rememberMe ? "checked" : "unchecked"}
+                  onPress={() => setRememberMe((value) => !value)}
+                  color={BRAND_COLORS.orange}
+                />
+                <Text
+                  variant="bodyMedium"
+                  style={{ color: BRAND_COLORS.white }}
+                >
+                  Stay signed in on this device
+                </Text>
+              </View>
+            )}
 
             <Button
               mode="contained"

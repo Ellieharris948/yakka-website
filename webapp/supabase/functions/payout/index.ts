@@ -422,9 +422,7 @@ Deno.serve(async req => {
           message: 'A Stripe transfer or its follow-up ledger update failed and needs review.',
           details: { operationKey: operationContext.operationKey, error: message },
         });
-      } catch (alertError) {
-        console.error('Could not persist the payment failure alert', alertError);
-      }
+      } catch {}
     }
     return jsonResponse({ error: error instanceof Error ? error.message : 'Unexpected error' }, 500);
   }

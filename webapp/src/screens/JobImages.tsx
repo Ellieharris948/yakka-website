@@ -3,7 +3,7 @@ import { Alert, Image, View } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { Button, Card, Chip, Text, TextInput } from '../ui/paper';
 import { supabase } from '../lib/supabase';
-import { pickJobImage, removeJobImage, uploadJobImage } from '../utils/jobImages';
+import { pickJobImage, removeJobImage, signJobImageRows, uploadJobImage } from '../utils/jobImages';
 import { inferJobPhotoStage, JobPhotoStage } from '../utils/jobPhotoStage';
 import BrandScreenHeader from '../components/BrandScreenHeader';
 import ResponsivePageScrollView from '../components/ResponsivePageScrollView';
@@ -22,6 +22,7 @@ type JobPhoto = {
   job_id: string;
   uploaded_by: string;
   file_url: string;
+  storage_path?: string | null;
   stage: JobPhotoStage;
   note: string | null;
   created_at: string;
@@ -48,7 +49,7 @@ export default function JobImages({ route }: any) {
 
     const { data, error } = await supabase
       .from('job_photos')
-      .select('*')
+      .select('id,job_id,uploaded_by,file_url,storage_path,stage,note,created_at')
       .eq('job_id', jobId)
       .order('created_at', { ascending: false });
     if (error) {
@@ -56,7 +57,12 @@ export default function JobImages({ route }: any) {
       setLoading(false);
       return;
     }
-    setPhotos((data || []) as JobPhoto[]);
+    try {
+      setPhotos(await signJobImageRows((data || []) as JobPhoto[]));
+    } catch {
+      Alert.alert('Images unavailable', 'The images could not be opened securely. Please try again.');
+      setPhotos([]);
+    }
     setLoading(false);
   }, [jobId]);
 
@@ -74,12 +80,12 @@ export default function JobImages({ route }: any) {
 
       const uri = await pickJobImage();
       if (!uri) return;
-      const { publicUrl, storagePath } = await uploadJobImage(user.id, jobId, uri);
+      const { storagePath } = await uploadJobImage(user.id, jobId, uri);
 
       const { error } = await supabase.from('job_photos').insert({
         job_id: jobId,
         uploaded_by: user.id,
-        file_url: publicUrl,
+        file_url: storagePath,
         storage_path: storagePath,
         stage,
         note: note.trim() || null,
@@ -92,7 +98,7 @@ export default function JobImages({ route }: any) {
       await supabase.from('messages').insert({
         job_id: jobId,
         sender_id: user.id,
-        body: `Uploaded ${stage} photo${note.trim() ? `: ${note.trim()}` : ''}\n${publicUrl}`,
+        body: `Uploaded ${stage} photo${note.trim() ? `: ${note.trim()}` : ''}`,
       });
 
       setNote('');

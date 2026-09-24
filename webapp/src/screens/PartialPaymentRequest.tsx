@@ -74,14 +74,14 @@ export default function PartialPaymentRequest({ route }: any) {
       if (!uri) return;
       const uploaded = await uploadJobImage(user.id, jobId, uri);
       const { data, error } = await supabase.from('job_photos').insert({
-        job_id: jobId, uploaded_by: user.id, file_url: uploaded.publicUrl,
+        job_id: jobId, uploaded_by: user.id, file_url: uploaded.storagePath,
         storage_path: uploaded.storagePath, stage: 'progress', note: 'Partial payment evidence',
       }).select('id').single();
       if (error) {
         await removeJobImage(uploaded.storagePath);
         throw error;
       }
-      setEvidence(current => [...current, { id: data.id, url: uploaded.publicUrl }]);
+      setEvidence(current => [...current, { id: data.id, url: uploaded.imageUrl }]);
     } catch (error: any) {
       Alert.alert('Photo could not upload', error?.message || 'Please try again.');
     } finally { setUploading(false); }

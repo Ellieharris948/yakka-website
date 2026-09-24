@@ -150,9 +150,7 @@ class ChatScreenBoundary extends React.Component<
     return { failed: true };
   }
 
-  componentDidCatch(error: unknown) {
-    console.error('Chat screen render failed', error);
-  }
+  componentDidCatch() {}
 
   render() {
     if (!this.state.failed) return this.props.children;
@@ -188,9 +186,7 @@ class MessagesListBoundary extends React.Component<
     return { failed: true };
   }
 
-  componentDidCatch(error: unknown) {
-    console.error('Messages list render failed', error);
-  }
+  componentDidCatch() {}
 
   retry = () => {
     this.setState({ failed: false });

@@ -141,7 +141,7 @@ export default function Dispute({ route }: any) {
         job_id: job.id,
         job_item_id: currentItem?.scope_change_id ? null : currentItem?.id || null,
         uploaded_by: user.id,
-        file_url: uploaded.publicUrl,
+        file_url: uploaded.storagePath,
         storage_path: uploaded.storagePath,
         stage: 'dispute',
         note: `Dispute evidence: ${currentItem?.title || job.title}`,
@@ -152,7 +152,7 @@ export default function Dispute({ route }: any) {
       }
       updateCurrent({
         photoIds: [...currentDraft.photoIds, data.id],
-        photoUrls: [...currentDraft.photoUrls, uploaded.publicUrl],
+        photoUrls: [...currentDraft.photoUrls, uploaded.imageUrl],
       });
     } catch (error: any) {
       Alert.alert('Photo could not upload', error?.message || 'Please try again.');

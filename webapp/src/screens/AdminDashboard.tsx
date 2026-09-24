@@ -7,6 +7,7 @@ import { Button, Card, Chip, Divider, Text, TextInput, useTheme } from '../ui/pa
 import { supabase } from '../lib/supabase';
 import { buildDisputeResolutionBreakdown } from '../utils/jobPayments';
 import { formatGBPCents } from '../utils/money';
+import { signJobImageRows } from '../utils/jobImages';
 import { invokeEdgeFunction } from '../utils/edgeFunctions';
 import BrandHeaderBar from '../components/BrandHeaderBar';
 import { BRAND_TYPOGRAPHY } from '../theme';
@@ -268,7 +269,7 @@ export default function AdminDashboard() {
       setSelectedDispute(dispute);
       setSelectedMessages(messages);
       setSelectedItems(items);
-      setSelectedPhotos(photos);
+      setSelectedPhotos(await signJobImageRows(photos));
       setSelectedAudit(audit);
       setSelectedDecision(decision);
       setPreviouslyReleasedGrossCents((releaseResult.data || []).reduce(

@@ -14,5 +14,3 @@ if (outputDirectory !== resolve(websiteDirectory, 'app')) {
 await rm(outputDirectory, { recursive: true, force: true });
 await mkdir(outputDirectory, { recursive: true });
 await cp(sourceDirectory, outputDirectory, { recursive: true });
-
-console.log(`Synced the web app build to ${outputDirectory}`);

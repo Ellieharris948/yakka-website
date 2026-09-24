@@ -1170,10 +1170,9 @@ function OnboardingContent() {
       if (traderMode === 'team' && accreditationLocalUri) {
         try {
           accreditationDocumentPath = await uploadProfileDocument(user.id, accreditationLocalUri);
-        } catch (uploadError: any) {
+        } catch {
           accreditationUploadWarning =
             'Your account was created, but the accreditation document could not be uploaded yet. You can add it again from your profile after the server update.';
-          console.warn('Accreditation upload deferred:', uploadError?.message || uploadError);
         }
       }
 

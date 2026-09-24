@@ -199,7 +199,7 @@ export default function Account({ route }: any) {
           .eq('job.status', 'completed')
           .order('created_at', { ascending: false });
 
-        if (revErr) console.log('reviews read error', revErr);
+        if (revErr) throw revErr;
         setReviews((revs || []) as any);
 
       } else {
