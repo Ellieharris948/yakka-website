@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "YAKKA",
+    "slug": "yakka",
+    "version": "1.5.4",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "yakka",
+    "userInterfaceStyle": "automatic",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#581A1F",
+      "translucent": true
+    },
+    "androidNavigationBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#F4F4EC"
+    },
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F4F4EC"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "49",
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": ["mailto", "itms-apps"]
+      }
+    },
+    "android": {
+      "edgeToEdgeEnabled": false,
+      "versionCode": 49,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F4F4EC"
+      },
+      "package": "com.anonymous.yakka"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "baseUrl": "/app"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}

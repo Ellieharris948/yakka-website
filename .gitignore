@@ -1,0 +1,6 @@
+temp/
+webapp/.env
+webapp/supabase/.env
+webapp/node_modules/
+webapp/.expo/
+webapp/dist/

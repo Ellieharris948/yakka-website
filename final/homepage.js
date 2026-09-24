@@ -1,7 +1,7 @@
 'use strict';
 // The homepage is a static design implementation. Real app routes belong in
 // these settings once supplied; never pretend a signup or message was sent.
-const YAKKA_LINKS = { download: '', login: '', contact: '' };
+const YAKKA_LINKS = { download: '/app/', login: '/app/', contact: '' };
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];

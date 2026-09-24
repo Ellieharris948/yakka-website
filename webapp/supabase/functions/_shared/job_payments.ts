@@ -1,0 +1,150 @@
+type JobLike = {
+  price_cents?: number | null;
+  description?: string | null;
+  upfront_materials_cents?: number | null;
+  materials_cents?: number | null;
+  vat_registered?: boolean | null;
+  vat_rate_bps?: number | null;
+};
+
+type JobItemLike = {
+  qty?: number | null;
+  price_cents?: number | null;
+};
+
+export const YAKKA_TRADIE_FEE_BPS = 500;
+export const YAKKA_CUSTOMER_FEE_BPS = 200;
+export const DEFAULT_VAT_RATE_BPS = 2_000;
+
+const UPFRONT_MATERIALS_RE =
+  /upfront materials requested:\s*[£$]?([\d,]+(?:\.\d{1,2})?)/i;
+
+function toPositiveInt(value: unknown) {
+  const amount = Math.round(Number(value ?? 0));
+  return Number.isFinite(amount) && amount > 0 ? amount : 0;
+}
+
+function parseMoneyTextToCents(value: string) {
+  const clean = String(value || '').replace(/[^\d.]/g, '');
+  if (!clean || !/^\d+(?:\.\d{1,2})?$/.test(clean)) return 0;
+  const [pounds, decimals = ''] = clean.split('.');
+  return Number(pounds) * 100 + Number((decimals + '00').slice(0, 2));
+}
+
+export function resolveUpfrontMaterialsCents(job: JobLike | null | undefined) {
+  if (!job) return 0;
+
+  const explicit = toPositiveInt(job.upfront_materials_cents);
+  if (explicit > 0) return explicit;
+
+  const match = String(job.description || '').match(UPFRONT_MATERIALS_RE);
+  return match?.[1] ? parseMoneyTextToCents(match[1]) : 0;
+}
+
+export function sumJobItemsCents(items: JobItemLike[] | null | undefined) {
+  if (!items?.length) return 0;
+  return items.reduce((sum, item) => {
+    const qty = Math.max(1, Math.round(Number(item.qty ?? 1) || 1));
+    const unit = Math.max(0, Math.round(Number(item.price_cents ?? 0) || 0));
+    return sum + qty * unit;
+  }, 0);
+}
+
+export function buildJobPaymentBreakdown(
+  job: JobLike | null | undefined,
+  items?: JobItemLike[] | null,
+) {
+  const itemTotal = sumJobItemsCents(items);
+  const laborCents = itemTotal > 0 ? itemTotal : toPositiveInt(job?.price_cents);
+  const upfrontMaterialsCents = resolveUpfrontMaterialsCents(job);
+  const materialsCents = Math.max(upfrontMaterialsCents, toPositiveInt(job?.materials_cents));
+  const subtotalExVatCents = laborCents + materialsCents;
+  const vatRateBps = job?.vat_registered === true
+    ? Math.min(10_000, toPositiveInt(job?.vat_rate_bps ?? DEFAULT_VAT_RATE_BPS))
+    : 0;
+  const vatCents = Math.round((subtotalExVatCents * vatRateBps) / 10_000);
+  const tradieGrossCents = subtotalExVatCents + vatCents;
+  const sellerFeeCents = Math.ceil((tradieGrossCents * YAKKA_TRADIE_FEE_BPS) / 10_000);
+  const netToSellerCents = Math.max(0, tradieGrossCents - sellerFeeCents);
+  const clientFeeCents = Math.ceil((tradieGrossCents * YAKKA_CUSTOMER_FEE_BPS) / 10_000);
+
+  return {
+    laborCents,
+    materialsCents,
+    upfrontMaterialsCents,
+    subtotalExVatCents,
+    vatCents,
+    vatRateBps,
+    tradieGrossCents,
+    sellerFeeCents,
+    netToSellerCents,
+    clientFeeCents,
+    totalDueCents: tradieGrossCents + clientFeeCents,
+  };
+}
+
+export function buildStripeReference(jobRef: string | null | undefined, traderReferenceName: string | null | undefined) {
+  const safeRef = String(jobRef || 'BOOKING').trim().toUpperCase();
+  const safeTrader = String(traderReferenceName || 'TRADIE').trim();
+  return `${safeRef} ${safeTrader}`.trim().slice(0, 200);
+}
+
+export function buildStripeTransferGroup(jobRef: string | null | undefined, traderReferenceName: string | null | undefined) {
+  const raw = buildStripeReference(jobRef, traderReferenceName)
+    .toUpperCase()
+    .replace(/[^A-Z0-9]+/g, '_')
+    .replace(/^_+|_+$/g, '');
+  return raw || 'BOOKING';
+}
+
+export function buildPartialReleaseBreakdown(args: {
+  requestedCents: number;
+  feeBps?: number;
+}) {
+  const requestedCents = toPositiveInt(args.requestedCents);
+  const feeBps = Math.min(10_000, toPositiveInt(args.feeBps ?? YAKKA_TRADIE_FEE_BPS));
+  const feeWithheldCents = Math.ceil((requestedCents * feeBps) / 10_000);
+  const transferCents = Math.max(0, requestedCents - feeWithheldCents);
+
+  return {
+    requestedCents,
+    transferCents,
+    feeWithheldCents,
+  };
+}
+
+export function buildDisputeResolutionBreakdown(args: {
+  principalCents: number;
+  clientFeeCents: number;
+  previouslyReleasedGrossCents?: number;
+  customerGrossCents: number;
+  tradieGrossCents: number;
+}) {
+  const principalCents = toPositiveInt(args.principalCents);
+  const clientFeeCents = toPositiveInt(args.clientFeeCents);
+  const previouslyReleasedGrossCents = Math.min(
+    principalCents,
+    toPositiveInt(args.previouslyReleasedGrossCents),
+  );
+  const remainingPrincipalCents = Math.max(0, principalCents - previouslyReleasedGrossCents);
+  const customerGrossCents = toPositiveInt(args.customerGrossCents);
+  const tradieGrossCents = toPositiveInt(args.tradieGrossCents);
+  const allocatedCents = customerGrossCents + tradieGrossCents;
+  const unallocatedCents = remainingPrincipalCents - allocatedCents;
+  const clientFeeRefundCents = principalCents > 0
+    ? Math.round((clientFeeCents * customerGrossCents) / principalCents)
+    : 0;
+  const tradieFeeCents = Math.ceil((tradieGrossCents * YAKKA_TRADIE_FEE_BPS) / 10_000);
+
+  return {
+    remainingPrincipalCents,
+    customerGrossCents,
+    clientFeeRefundCents,
+    customerRefundCents: customerGrossCents + clientFeeRefundCents,
+    tradieGrossCents,
+    tradieFeeCents,
+    tradieTransferCents: Math.max(0, tradieGrossCents - tradieFeeCents),
+    unallocatedCents,
+    isFullyAllocated: unallocatedCents === 0,
+  };
+}
